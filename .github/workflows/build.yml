@@ -12,28 +12,23 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        submodules: 'recursive'
 
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
         java-version: '17'
         distribution: 'temurin'
-
-    - name: Setup Android NDK
-      run: |
-        echo "ANDROID_NDK_HOME=${ANDROID_SDK_ROOT}/ndk/25.2.9519653" >> $GITHUB_ENV
-        echo "${ANDROID_SDK_ROOT}/ndk/25.2.9519653" >> $GITHUB_PATH
+        cache: 'gradle'
 
     - name: Build Native Libraries
       run: |
-        cd app/src/main/cpp
-        ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=Android.mk APP_ABI="arm64-v8a armeabi-v7a"
+        # Use default NDK path for Ubuntu 22.04
+        # NDK 25.2.9519653 is standard on GH Actions
+        $ANDROID_SDK_ROOT/ndk/25.2.9519653/ndk-build -C app/src/main/cpp NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=Android.mk APP_ABI="arm64-v8a armeabi-v7a"
 
     - name: Build Android App
       run: |
