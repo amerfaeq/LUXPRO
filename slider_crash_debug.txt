@@ -1,0 +1,1195 @@
+﻿--------- beginning of main
+03-13 14:11:37.590  1158  4457 E sensors-hal: ssc_conn_event_cb:662, event[0] sensor:sar_detector_1  Wakeup, msg_id=1025, ts=4349371758853
+03-13 14:11:37.591  1158  4457 E sensors-hal: handle_sns_client_event:52, sar_algo_event: ts=226523852140161, event=1.000000
+03-13 14:11:37.632  3941  4406 E ModemController: mMiRilHook.sendQcRilHookMsg: Null Response
+03-13 14:11:39.879  3982  4115 E Launcher: mFsGestureStatusRefreshRunnable:run usingFsGesture=true   show=true   focus=true   pause=false
+--------- beginning of system
+03-13 14:11:39.880  3982  4207 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: isSupportServiceDelivery
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: java.lang.IllegalArgumentException: Unknown authority com.miui.personalassistant.servicedeliver.system.provider
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at android.content.ContentResolver.call(ContentResolver.java:2466)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at android.content.ContentResolver.call(ContentResolver.java:2449)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.launcher.servicedeliver.ServiceDeliveryUtils.isSupportServiceDelivery(ServiceDeliveryUtils.kt:28)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.launcher.ShortcutMenuLayer.checkServiceDeliverSupport(ShortcutMenuLayer.java:126)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.launcher.ShortcutMenuLayer.lambda$showShortcutMenu$0(ShortcutMenuLayer.java:113)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.launcher.ShortcutMenuLayer.$r8$lambda$HlgBxfeqMPoqI5EvVBGRreYDMw0(Unknown Source:0)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.launcher.ShortcutMenuLayer$$ExternalSyntheticLambda2.apply(Unknown Source:6)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.library.utils.AsyncTaskExecutorHelper$3.doInBackground(AsyncTaskExecutorHelper.java:129)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at com.miui.home.library.utils.AsyncTaskExecutorHelper$3.doInBackground(AsyncTaskExecutorHelper.java:124)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:39.883  3982  4207 E ServiceDeliveryCompat: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:39.885  1922  2010 E VibratorManagerServiceImpl: skipandroid.os.RemoteException: Method setUsageExt is unimplemented.
+03-13 14:11:39.959  3982  3982 E Launcher.ShortcutMenuLayer: onQuerySucceed:Item(id=480 type=0)
+03-13 14:11:40.411  3982  3982 E backgroundBlur: setBackgroundBlurMode disable com.miui.home.launcher.DragView
+03-13 14:11:40.411  3982  3982 E backgroundBlur: setMiViewBlurMode disable com.miui.home.launcher.DragView
+03-13 14:11:40.664  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:40.664  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.664  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.671  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:40.671  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:40.679  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:40.701  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 2
+03-13 14:11:40.705  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+03-13 14:11:40.705  3982  4422 E ActivityManagerWrapper:  mainTaskId=10559   userId=0   windowMode=1   baseIntent=Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS flag=268468224 cmp=ComponentInfo{com.android.settings/com.android.settings.applications.InstalledAppDetails} }
+03-13 14:11:40.705  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:40.705  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:40.705  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:40.710  3982  4115 E Launcher: mFsGestureStatusRefreshRunnable:run usingFsGesture=true   show=true   focus=false   pause=true
+03-13 14:11:40.716 27878 27878 E Zygote  : process_name_ptr:27878 com.android.settings
+03-13 14:11:40.735 27878 27878 E ndroid.settings: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:40.752  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:40.752  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.752  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.754  1226  1430 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+03-13 14:11:40.759  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:40.759  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.759  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.853  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 10559
+03-13 14:11:40.864  3947  4355 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:40.866  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+03-13 14:11:40.866  3982  4422 E ActivityManagerWrapper:  mainTaskId=10559   userId=0   windowMode=1   baseIntent=Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS flag=268468224 cmp=ComponentInfo{com.android.settings/com.android.settings.applications.InstalledAppDetails} }
+03-13 14:11:40.866  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:40.866  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:40.866  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:40.929  3947  3947 E onWindowDecorRectChanged: start size:1
+03-13 14:11:40.929  3947  3947 E onWindowDecorRectChanged: windowDecorRects: Rect(454, 12 - 625, 123)
+03-13 14:11:40.959  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:40.959  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.959  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.967  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:40.967  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.967  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.977  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:40.977  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.977  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.985  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:40.986  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.986  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:40.993  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:40.994  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:40.994  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.002  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.002  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.002  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.009  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.009  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.009  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.018  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.018  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.018  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.027  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.027  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.027  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.035  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.036  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.036  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.043  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.043  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.043  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.052  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.052  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.052  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.059  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.059 31798 32060 E msys    : E[N mns]_OnDiskCacheGetData(632)=>Start post callback cache refresh DNS resolution
+03-13 14:11:41.059  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.060  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.061 31798 31872 E MQTTBypassDGWStreamGroupCallbacks.cpp: onStreamGroupError TransientError domain: MNSQUICConnection code: 1 detail: Local error: 0x40000015: 35 seconds timeout
+03-13 14:11:41.067  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.068  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.068  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.072  1922  3729 E ExtM    : ExtM flush exist thrashing
+03-13 14:11:41.076  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.076  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.076  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.077 31798 32060 E msys    : E[N mns]_OnSystemDNSSuccessCallback(340)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+03-13 14:11:41.084  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.085  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.085  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.093  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.093  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.093  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.101  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.102  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.102  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.109  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.109  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.109  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.119  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.119  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.119  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.122 27878 27907 E MiuiUtils: Cannot find package: com.android.quicksearchbox
+03-13 14:11:41.122 27878 27907 E MiuiUtils: android.content.pm.PackageManager$NameNotFoundException: com.android.quicksearchbox
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:219)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:213)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.MiuiUtils.getAppLongVersionCode(MiuiUtils.java:1650)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.personal.FullScreenDisplayController.quickSearchBoxTooOld(FullScreenDisplayController.java:63)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.personal.FullScreenDisplayController.isRemoveEntryFromSettings(FullScreenDisplayController.java:69)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.personal.FullScreenDisplayController.initInfinityDisplaySettings(FullScreenDisplayController.java:47)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.SettingsApplication$InitTask.doInBackground(SettingsApplication.java:457)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at com.android.settings.SettingsApplication$InitTask.doInBackground(SettingsApplication.java:437)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:41.122 27878 27907 E MiuiUtils: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:41.127  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.127  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.127  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.134  1922  3729 E ExtM    : can_flush_idle_pages:87093 flush_number_adjust: 5000
+03-13 14:11:41.135  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.136  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.136  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.139 27878 27878 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:41.139 27878 27878 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.143  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.143  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.144  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.152  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.152  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.152  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.157 27878 27902 E DynamicRefreshRate recy: dynamic is not enable
+03-13 14:11:41.161  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.161  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.161  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.170  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.170  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.170  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.177  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.177  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.177  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.186  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.186  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.186  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.194  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.194  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.194  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.201 27918 27918 E vold    : maxCpuFreq=2400000
+03-13 14:11:41.202 27918 27918 E vold    : maxCpuFreq=2400000
+03-13 14:11:41.202  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.202  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.202  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.210  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.210  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.210  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.218  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.218  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.218  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.226  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.226  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.226  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.235  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.236  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.236  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.244  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.244  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.244  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.252  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.252  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.252  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.260  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.260  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.260  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.269  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.269  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.269  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.277  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.277  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.277  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.285  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.285  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.285  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.293  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.294  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.294  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.302  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.302  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.302  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.303  3337 27927 E AD-PLUGIN-SplashController: Get miui intent sender : null
+03-13 14:11:41.306  7384 19497 E SystemAdContentProvider: query flag: 672
+03-13 14:11:41.310  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.310  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.310  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.318  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.318  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.318  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.327  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.327  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.327  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.334  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.334  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.335  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.343  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.343  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.343  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.351  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.353  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.353  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.360  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.360  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.361  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.371  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.372  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.372  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.376  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.376  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.376  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.384  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.385  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.385  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.393  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.394  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.394  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.403  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.403  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.403  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.410  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.410  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.410  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.418  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.419  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.420  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.426  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.427  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.427  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.429  3337  3405 E c       : NameNotFound android.uid.system:1000
+03-13 14:11:41.435  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.435  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.435  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.443  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.444  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.444  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.445  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.445  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.445  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.450  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000010, clamping
+03-13 14:11:41.452  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.452  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.452  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.453  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.454  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.454  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.454  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.454  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.459  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000031, clamping
+03-13 14:11:41.460  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.461  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.461  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.467  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000046, clamping
+03-13 14:11:41.468  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.469  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.469  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.470 27878 27878 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.470 27878 27878 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.471 27878 27878 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.475  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.475  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.475  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.475  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.475  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000057, clamping
+03-13 14:11:41.477  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.477  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.477  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.477  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.477  1226  1430 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+03-13 14:11:41.478  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.478  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.482  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.482  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.482  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.482  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.482  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.482  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.484  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000064, clamping
+03-13 14:11:41.485  3947  4147 E SurfaceComposerClient: SurfaceComposerClient::Transaction::setAlpha: invalid alpha 1.000064, clamping
+03-13 14:11:41.485  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.486  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.487  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.494  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:41.495  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:41.495  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:41.533  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.539  5744  5744 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.586  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 10559
+03-13 14:11:41.588  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+03-13 14:11:41.588  3982  4422 E ActivityManagerWrapper:  mainTaskId=10559   userId=0   windowMode=1   baseIntent=Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS flag=268468224 cmp=ComponentInfo{com.android.settings/com.android.settings.applications.InstalledAppDetails} }
+03-13 14:11:41.588  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:41.588  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:41.588  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:41.610  4728  4728 E DynamicRefreshRate recy: dynamic is not enable
+03-13 14:11:41.629  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.652  4728  4903 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:41.656  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 10559
+03-13 14:11:41.662  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=4
+03-13 14:11:41.662  3982  4422 E ActivityManagerWrapper:  mainTaskId=10559   userId=0   windowMode=1   baseIntent=Intent { act=android.settings.APPLICATION_DETAILS_SETTINGS flag=268468224 cmp=ComponentInfo{com.android.settings/com.android.settings.applications.InstalledAppDetails} }
+03-13 14:11:41.662  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:41.662  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:41.662  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:41.695  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.713  4728  4728 E OpenGLRenderer: setMiShadow is not show
+03-13 14:11:41.724  1922  2440 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu┘د/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+03-13 14:11:41.724  1922  2440 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu┘ج/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+03-13 14:11:41.724  1922  2440 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu┘ب/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+03-13 14:11:41.728   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup58 (../../devices/virtual/misc/msm_wma/wakeup58): Permission denied
+03-13 14:11:41.731   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup4 (../../devices/platform/soc/soc:qcom,smp2p-modem/wakeup/wakeup4): Permission denied
+03-13 14:11:41.737   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup28 (../../devices/platform/soc/4080000.qcom,mss/wakeup/wakeup28): Permission denied
+03-13 14:11:41.738   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup18 (../../devices/platform/soc/soc:qcom,trustedvm@d0800000/wakeup/wakeup18): Permission denied
+03-13 14:11:41.738   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup46 (../../devices/virtual/misc/msm_aac/wakeup46): Permission denied
+03-13 14:11:41.738   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup2 (../../devices/platform/soc/soc:qcom,smp2p-adsp/wakeup/wakeup2): Permission denied
+03-13 14:11:41.739   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup36 (../../devices/platform/soc/aab0000.qcom,venus/subsys7/wakeup/wakeup36): Permission denied
+03-13 14:11:41.740   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup26 (../../devices/platform/soc/soc:qcom,wpss@8a00000/wakeup/wakeup26): Permission denied
+03-13 14:11:41.741   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup16 (../../devices/platform/soc/1e00000.qcom,ipa/wakeup/wakeup16): Permission denied
+03-13 14:11:41.743   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup24 (../../devices/platform/soc/3700000.qcom,lpass/wakeup/wakeup24): Permission denied
+03-13 14:11:41.743   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup52 (../../devices/virtual/misc/msm_evrc/wakeup52): Permission denied
+03-13 14:11:41.744   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup9 (../../devices/platform/soc/88e0000.qcom,msm-eud/wakeup/wakeup9): Permission denied
+03-13 14:11:41.744   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup14 (../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pmk8350@0:rtc@6100/rtc/rtc0/wakeup14): Permission denied
+03-13 14:11:41.745   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup42 (../../devices/platform/soc/17a10040.qcom,wcn6750/wakeup/wakeup42): Permission denied
+03-13 14:11:41.746   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup32 (../../devices/platform/soc/99c000.qcom,qup_uart/wakeup/wakeup32): Permission denied
+03-13 14:11:41.746   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup60 (../../devices/platform/soc/a94000.spi/spi_master/spi0/spi0.0/wakeup/wakeup60): Permission denied
+03-13 14:11:41.746   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup22 (../../devices/platform/soc/soc:qcom,kgsl-hyp/wakeup/wakeup22): Permission denied
+03-13 14:11:41.747   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup50 (../../devices/virtual/misc/msm_amrwbplus/wakeup50): Permission denied
+03-13 14:11:41.747   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup7 (../../devices/platform/soc/soc:qcom,pmic_glink/wakeup/wakeup7): Permission denied
+03-13 14:11:41.747   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup12 (../../devices/platform/soc/soc:md_testing_mode/wakeup/wakeup12): Permission denied
+03-13 14:11:41.748   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup30 (../../devices/platform/soc/a300000.qcom,turing/wakeup/wakeup30): Permission denied
+03-13 14:11:41.749   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup59 (../../devices/virtual/misc/msm_wmapro/wakeup59): Permission denied
+03-13 14:11:41.749   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup20 (../../devices/platform/soc/soc:qcom,ipa_fws/wakeup/wakeup20): Permission denied
+03-13 14:11:41.749   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup49 (../../devices/virtual/misc/msm_amrwb/wakeup49): Permission denied
+03-13 14:11:41.749  4728  4728 E OpenGLRenderer: setMiShadow is not show
+03-13 14:11:41.749   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup5 (../../devices/platform/soc/soc:qcom,smp2p-wpss/wakeup/wakeup5): Permission denied
+03-13 14:11:41.750   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup10 (../../devices/virtual/fastrpc/adsprpc-smd/wakeup10): Permission denied
+03-13 14:11:41.751   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup29 (../../devices/platform/soc/4080000.qcom,mss/subsys5/wakeup/wakeup29): Permission denied
+03-13 14:11:41.751   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup57 (../../devices/virtual/misc/msm_qcelp/wakeup57): Permission denied
+03-13 14:11:41.751   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup19 (../../devices/platform/soc/soc:qcom,trustedvm@d0800000/subsys0/wakeup/wakeup19): Permission denied
+03-13 14:11:41.751   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup47 (../../devices/virtual/misc/msm_alac/wakeup47): Permission denied
+03-13 14:11:41.752   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup3 (../../devices/platform/soc/soc:qcom,smp2p-nsp/wakeup/wakeup3): Permission denied
+03-13 14:11:41.752   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup135 (../../devices/platform/dummy_hcd.0/usb1/wakeup/wakeup135): Permission denied
+03-13 14:11:41.753   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup27 (../../devices/platform/soc/soc:qcom,wpss@8a00000/subsys4/wakeup/wakeup27): Permission denied
+03-13 14:11:41.753   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup55 (../../devices/virtual/misc/msm_mp3/wakeup55): Permission denied
+03-13 14:11:41.754   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup45 (../../devices/platform/soc/990000.i2c/i2c-2/2-0028/wakeup/wakeup45): Permission denied
+03-13 14:11:41.755   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup35 (../../devices/platform/soc/aab0000.qcom,venus/wakeup/wakeup35): Permission denied
+03-13 14:11:41.756   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup25 (../../devices/platform/soc/3700000.qcom,lpass/subsys3/wakeup/wakeup25): Permission denied
+03-13 14:11:41.756   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup53 (../../devices/virtual/misc/msm_g711alaw/wakeup53): Permission denied
+03-13 14:11:41.757   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup43 (../../devices/platform/soc/soc:fingerprint_goodix/wakeup/wakeup43): Permission denied
+03-13 14:11:41.758   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup33 (../../devices/platform/soc/a84000.i2c/i2c-3/3-005a/wakeup/wakeup33): Permission denied
+03-13 14:11:41.758   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup61 (../../devices/platform/goodix_ts.0/wakeup/wakeup61): Permission denied
+03-13 14:11:41.758   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup23 (../../devices/platform/soc/soc:qcom,kgsl-hyp/subsys2/wakeup/wakeup23): Permission denied
+03-13 14:11:41.759   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup51 (../../devices/virtual/misc/msm_ape/wakeup51): Permission denied
+03-13 14:11:41.759   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup8 (../../devices/platform/soc/soc:qcom,pmic_glink_log/wakeup/wakeup8): Permission denied
+03-13 14:11:41.760   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup31 (../../devices/platform/soc/a300000.qcom,turing/subsys6/wakeup/wakeup31): Permission denied
+03-13 14:11:41.760   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup21 (../../devices/platform/soc/soc:qcom,ipa_fws/subsys1/wakeup/wakeup21): Permission denied
+03-13 14:11:41.760   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup6 (../../devices/platform/soc/soc:qcom,smp2p_sleepstate/wakeup/wakeup6): Permission denied
+03-13 14:11:41.761   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup11 (../../devices/virtual/fastrpc/adsprpc-smd-secure/wakeup11): Permission denied
+03-13 14:11:41.761   704   712 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup138 (../../devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/Listen 2 Audio Service/wakeup/wakeup138): Permission denied
+03-13 14:11:41.766  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.767  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:41.796  3982  3982 E Launcher.application: setClickAppWaitForCallback = false
+03-13 14:11:41.854  1922  3708 E SyncManager: SYNC_OP_STATE_INVALID: disallowed by settings/network
+03-13 14:11:41.857  5744  5744 E FileUtils: err write to mi_exception_log
+03-13 14:11:41.988  1158  4457 E sensors-hal: ssc_conn_event_cb:662, event[0] sensor:sar_detector_1  Wakeup, msg_id=1025, ts=4349456233963
+03-13 14:11:41.988  1158  4457 E sensors-hal: handle_sns_client_event:52, sar_algo_event: ts=226528251885473, event=0.000000
+03-13 14:11:41.998  3941  4406 E ModemController: mMiRilHook.sendQcRilHookMsg: Null Response
+03-13 14:11:42.226  8844 10734 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+03-13 14:11:42.226  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.226  8844 10734 E AuthPII : Message is Long live credential not available.
+03-13 14:11:42.226  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.226  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.247  8844 10734 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+03-13 14:11:42.247  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.247  8844 10734 E AuthPII : Message is Long live credential not available.
+03-13 14:11:42.247  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.247  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.266  8844 10734 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+03-13 14:11:42.266  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.266  8844 10734 E AuthPII : Message is Long live credential not available.
+03-13 14:11:42.266  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.266  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.287  8844 10734 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+03-13 14:11:42.287  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.287  8844 10734 E AuthPII : Message is Long live credential not available.
+03-13 14:11:42.287  8844 10734 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agua.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):145)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):800)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at agnm.getAuthToken(:com.google.android.gms@260931029@26.09.31 (190400-877989800):411)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:251)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:253)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1351)
+03-13 14:11:42.287  8844 10734 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:42.494  4728  4903 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:43.359  4728  4903 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:43.886  1259 12799 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+03-13 14:11:44.138  1922  7691 E VibratorManagerServiceImpl: skipandroid.os.RemoteException: Method setUsageExt is unimplemented.
+03-13 14:11:44.157  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.160  1922  2368 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877599/cgroup.freeze
+03-13 14:11:44.165  1922  2368 E libprocessgroup: No such cgroup attribute: /sys/fs/cgroup/uid_4294877599/cgroup.freeze
+03-13 14:11:44.314 27974 27974 E Zygote  : process_name_ptr:27974 com.android.chrome
+03-13 14:11:44.331 27974 27974 E .android.chrome: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:44.331  5617  5617 E NfcApduServiceInfo: SE extension not present, Setting default offhost seID
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: Next Tag=services
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: installedServices no uidString 
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache: 1invalidateCache:WriteServiceStateToFile
+03-13 14:11:44.334  5617  5617 E RegisteredServicesCache:  Writing service state Data Always
+03-13 14:11:44.338  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+03-13 14:11:44.338  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService
+03-13 14:11:44.338  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService
+03-13 14:11:44.338  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService
+03-13 14:11:44.348 27974 27974 E .android.chrome: Can't find memory status under: /sys/block/zram0/
+03-13 14:11:44.370  5617  5617 E libnfc_nci: [ERROR:nfa_ee_api.cc(130)] NFA_EeGetInfo bad em state: 0
+03-13 14:11:44.370  5617  5617 E libnfc_nci: [ERROR:SecureElement.cpp(1463)] SecureElement::getEeInfo: fail get info; error=0x3
+03-13 14:11:44.377  5617  5617 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.385 26974 26974 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.412 31127 31127 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.423 27992 27992 E Zygote  : process_name_ptr:27992 com.google.android.documentsui
+03-13 14:11:44.433 27992 27992 E oid.documentsui: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: Failed to delete the CE shared dir for Android package: com.luxpro.vip. [CONTEXT service_id=51 ]
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: java.lang.IllegalStateException: Failed to delete directory
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at gvdl.r(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at etzz.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):87)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at com.google.android.gms.phenotype.notification.PackagesChangedIntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):332)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at bbjn.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):84)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at aand.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):64)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at aanc.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):132)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at gszf.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):19)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:44.440  8844 27988 E PhSharedDirectoryWriter: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: Failed to delete the DE shared dir for Android package: com.luxpro.vip. [CONTEXT service_id=51 ]
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: java.lang.IllegalStateException: Failed to delete directory
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at gvdl.r(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at etzz.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):136)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at com.google.android.gms.phenotype.notification.PackagesChangedIntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):332)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at bbjn.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):84)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at aand.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):64)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at aanc.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):132)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at gszf.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):19)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:44.441  8844 27988 E PhSharedDirectoryWriter: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:44.483 28012 28012 E Zygote  : process_name_ptr:28012 com.miui.vsimcore
+03-13 14:11:44.492 28012 28012 E m.miui.vsimcore: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:44.499 28012 28012 E m.miui.vsimcore: Can't find memory status under: /sys/block/zram0/
+03-13 14:11:44.554 28026 28026 E Zygote  : process_name_ptr:28026 com.xiaomi.aicr:searchDataService
+03-13 14:11:44.565 28026 28026 E archDataService: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:44.572 28026 28026 E archDataService: Can't find memory status under: /sys/block/zram0/
+03-13 14:11:44.700 27974 27974 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:44.700 27974 27974 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.739 28012 28012 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:44.739 28012 28012 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.749 27992 27992 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:44.749 27992 27992 E FileUtils: err write to mi_exception_log
+03-13 14:11:44.895  1922  3227 E ProcessManager: error write exception log
+03-13 14:11:44.958  9948 10023 E ActivityThread: Failed to find provider info for com.miui.permcenter.privacycenter
+03-13 14:11:44.968 28026 28026 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:44.968 28026 28026 E FileUtils: err write to mi_exception_log
+03-13 14:11:45.208  4728  4903 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:45.688  3982  4115 E ActivityThread: Failed to find provider info for com.miui.personalassistant.servicedeliver.system.provider
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: isSupportServiceDelivery
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: java.lang.IllegalArgumentException: Unknown authority com.miui.personalassistant.servicedeliver.system.provider
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at android.content.ContentResolver.call(ContentResolver.java:2466)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at android.content.ContentResolver.call(ContentResolver.java:2449)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at com.miui.home.launcher.servicedeliver.ServiceDeliveryUtils.isSupportServiceDelivery(ServiceDeliveryUtils.kt:28)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at com.miui.home.launcher.servicedeliver.ServiceDeliveryReplaceHelper.lambda$tryReplaceToServiceDelivery$1(ServiceDeliveryReplaceHelper.java:67)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at com.miui.home.launcher.servicedeliver.ServiceDeliveryReplaceHelper.$r8$lambda$WUWmthv-UjITX40FJ8ag1YKl6O8(Unknown Source:0)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at com.miui.home.launcher.servicedeliver.ServiceDeliveryReplaceHelper$$ExternalSyntheticLambda1.run(Unknown Source:2)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:524)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:45.689  3982  4115 E ServiceDeliveryCompat: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:45.915 28078 28078 E Zygote  : process_name_ptr:28078 com.facebook.services
+03-13 14:11:45.919  1922  2010 E VibratorManagerServiceImpl: skipandroid.os.RemoteException: Method setUsageExt is unimplemented.
+03-13 14:11:45.926 28078 28078 E cebook.services: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:45.971  1922  2781 E PackageManager: cleanupDexUseInfo failed.[Ljava.lang.StackTraceElement;@e8fb572
+03-13 14:11:46.176  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.186  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.223 28078 28078 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.223 28078 28078 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.317  1922  2310 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.317  1922  2310 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.317  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.317  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.325  3947  3947 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.327  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 2
+03-13 14:11:46.331  3947  3947 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.337  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.338 28078 28078 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.345  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=3
+03-13 14:11:46.345  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:46.345  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:46.345  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:46.347  1922  3141 E AppOps  : attributionTag VCN not declared in manifest of android
+03-13 14:11:46.348  1922  3141 E AppOps  : attributionTag VCN not declared in manifest of android
+03-13 14:11:46.350  1922  3141 E AppOps  : attributionTag VCN not declared in manifest of android
+03-13 14:11:46.355  1922  3141 E AppOps  : attributionTag VCN not declared in manifest of android
+03-13 14:11:46.355  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.355  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.355  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.355  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.359  3909  3909 E QesdkSysService: No callback set, dropping uninstalled change message
+03-13 14:11:46.361  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.361  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.361  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.366  3947  4355 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:46.381 28122 28122 E Zygote  : process_name_ptr:28122 com.facebook.appmanager
+03-13 14:11:46.393  5744  6016 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:46.402  3947  3947 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.404 28122 28122 E book.appmanager: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:46.407  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.407  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.407  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.407  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.407  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.407  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.432  1235  1235 E vendor.qti.hardware.soter@1.0-impl: remove ASK send cmd failed
+03-13 14:11:46.433  1235  1235 E vendor.qti.hardware.soter@1.0-impl: ret: 0
+03-13 14:11:46.433  1235  1235 E vendor.qti.hardware.soter@1.0-impl: rsp->status: -5
+03-13 14:11:46.438  1922  2310 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.439  1922  2310 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.441  1922  6605 E PermissionManager: Missing permissions state for com.luxpro.vip and user 0
+03-13 14:11:46.442 28122 28122 E book.appmanager: Can't find memory status under: /sys/block/zram0/
+03-13 14:11:46.443  1922  1922 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.446  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.454  1922  4386 E PermissionManager: Missing permissions state for com.luxpro.vip and user 0
+03-13 14:11:46.466  1922  3420 E AppScanObserverService: Try to remove an invalid package: 10303 | 0 | false
+03-13 14:11:46.474  5744  5744 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.478  1922  1922 E SLM-SRV-SLAAppLib: initBroadcastReceivercom.luxpro.vip
+03-13 14:11:46.481  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.483  3982  3982 E Launcher.application: setClickAppWaitForCallback = false
+03-13 14:11:46.500  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.503 28078 28078 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.506  9811  9811 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.511 28141 28141 E Zygote  : process_name_ptr:28141 com.android.keychain
+03-13 14:11:46.524  3982  4226 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-13 14:11:46.525 28078 28078 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.528  5970  5970 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.532 28141 28141 E ndroid.keychain: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:46.551  5970  6652 E IDM-IDMConfigCache: clearInternalCache clientIds == 0
+03-13 14:11:46.568  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.586  1922  2310 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.586  1922  2310 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.590  5744  5744 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.611  3982  4115 E Launcher: mFsGestureStatusRefreshRunnable:run usingFsGesture=true   show=true   focus=false   pause=false
+03-13 14:11:46.646  1922  2310 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.646  1922  2310 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.656  5617  5617 E NfcApduServiceInfo: SE extension not present, Setting default offhost seID
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: Next Tag=services
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: installedServices no uidString 
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache: 1invalidateCache:WriteServiceStateToFile
+03-13 14:11:46.657  5617  5617 E RegisteredServicesCache:  Writing service state Data Always
+03-13 14:11:46.659  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+03-13 14:11:46.659  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService
+03-13 14:11:46.659  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService
+03-13 14:11:46.659  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService
+03-13 14:11:46.661  5617  5617 E libnfc_nci: [ERROR:nfa_ee_api.cc(130)] NFA_EeGetInfo bad em state: 0
+03-13 14:11:46.661  5617  5617 E libnfc_nci: [ERROR:SecureElement.cpp(1463)] SecureElement::getEeInfo: fail get info; error=0x3
+03-13 14:11:46.666  5617  5617 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.685  1922  1922 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.687  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 2
+03-13 14:11:46.708  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=3
+03-13 14:11:46.708  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:46.708  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:46.708  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:46.712  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 2
+03-13 14:11:46.715  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=3
+03-13 14:11:46.715  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:46.715  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:46.715  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:46.717  3947  3947 E onWindowDecorRectChanged: start size:0
+03-13 14:11:46.726 31192 28159 E PackageUtils: exception when getPackageInfo :
+03-13 14:11:46.726 31192 28159 E PackageUtils: android.content.pm.PackageManager$NameNotFoundException: com.luxpro.vip
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:219)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:213)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at L1.h.d(Unknown Source:6)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at E1.b.b(Unknown Source:13)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at com.miui.guardprovider.manager.SecurityService$a.B0(Unknown Source:15)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at com.miui.guardprovider.manager.SecurityService$a.A0(Unknown Source:0)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at com.miui.guardprovider.manager.a.run(Unknown Source:4)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:46.726 31192 28159 E PackageUtils: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:46.738 28160 28160 E Zygote  : process_name_ptr:28160 com.google.android.apps.maps
+03-13 14:11:46.739  3982  3982 E WindowTransitionCompat: TransitionTest wrapRemoteTransition
+03-13 14:11:46.739  3982  3982 E WindowTransitionCompat: printLeash::index = 0, root = Surface(name=Transition Root #3480: Task=1#53937)/@0x5652488
+03-13 14:11:46.740  3982  3982 E WindowTransitionCompat: 0, check isClosingType type = 2, mode = 3
+03-13 14:11:46.740  3982  3982 E WindowTransitionCompat: 1, check isClosingType type = 1, mode = 2
+03-13 14:11:46.740  1922  2310 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:46.740  1922  2310 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.749  5617  5617 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.752 16147 16147 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.771  3982  3982 E WindowAnimParamsProvider: getWindowTargetBounds    bounds=Rect(0, 0 - 1080, 2400)
+03-13 14:11:46.773  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.773  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.779  3982  3982 E ActivityManagerWrapper: get all recent tasks force including 10559
+03-13 14:11:46.781 16492 16492 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.784  3982  3982 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=3
+03-13 14:11:46.784  3982  3982 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:46.784  3982  3982 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:46.784  3982  3982 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:46.786  1922  1922 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.788 16410 16410 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.788  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.788  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.788  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.788  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.788  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.794  1922  3227 E ProcessManager: error write exception log
+03-13 14:11:46.795  3982  3982 E ClipAnimationHelper: updateSourceStack  mSourceInsets=Rect(0, 0 - 0, 0), mSourceStackBounds=Rect(0, 0 - 1080, 2400)
+03-13 14:11:46.795  3982  3982 E ClipAnimationHelper: updateHomeStack  mSourceInsets=Rect(0, 0 - 0, 0), mHomeStackBounds=Rect(0, 0 - 1080, 2400)
+03-13 14:11:46.795  3982  3982 E ClipAnimationHelper: updateTargetRect  mSourceRect=RectF(0.0, 0.0, 1080.0, 2400.0)   mTargetRect=RectF(0.0, 0.0, 1080.0, 2400.0)   mSourceWindowClipInsets=RectF(0.0, 0.0, 0.0, 0.0)   mHomeStackBounds=Rect(0, 0 - 1080, 2400)   targetRect=Rect(0, 0 - 1080, 2400)
+03-13 14:11:46.801  3982  3982 E MultiSpringDynamicAnimationca731a3: ERROR Not Found Bundle SurfaceExtAlpha
+03-13 14:11:46.808 28160 28160 E droid.apps.maps: Can't find memory status under: /sys/block/zram0/
+03-13 14:11:46.810  3982  3982 E MultiSpringDynamicAnimationca731a3: ERROR Not Found Bundle SurfaceExtAlpha
+03-13 14:11:46.810  3982  3982 E MultiSpringDynamicAnimationca731a3: ERROR Not Found Bundle SurfaceExtAlpha
+03-13 14:11:46.811  3982  3982 E MultiSpringDynamicAnimation8a26a1a: ERROR Not Found Bundle scaleY
+03-13 14:11:46.811  3982  3982 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.813  3982  4115 E StateNotifyUtils: sendFsStateBroadCast state=closeWindow   channel=navigation_bar   packageName=
+03-13 14:11:46.814 31201 31201 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.822  2846  2846 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.826  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.828  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.828  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.837  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.838  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.838  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.849  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.852  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.853  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.862  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.864  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.864  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.878  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.879  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.879  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.885  3947  3947 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.890  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.890  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.890  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:46.890  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.890  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.890  1922  3227 E ProcessManager: error write exception log
+03-13 14:11:46.898  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.898  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.898  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.911  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.911 16473 16473 E FileUtils: err write to mi_exception_log
+03-13 14:11:46.911  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.911  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.925  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.925  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.925  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.925 16147 28157 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+03-13 14:11:46.937  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.940  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.940  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.947  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.948  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.948  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.960  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.960  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.960  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.973  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.973  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.973  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.985  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.985  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.985  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:46.997  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:46.999  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:46.999  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.004  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.004  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.004  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.011  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.012  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.012  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.020  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.020  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.020  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.015 28141 28141 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:47.022 28141 28141 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.029  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.029  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.029  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.037  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.037  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.037  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.045  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.046  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.046  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.053  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.054  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.054  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.062  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.062  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.062  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.069  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.070  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.070  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.077  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.078  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.078  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.086  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.086  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.086  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.094  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.095  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.095  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.102  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.104  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.104  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.114  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.114  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.114  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.119  1222  1222 E SDM     : HWCSession::GetClientTargetProperty: GetClinetTargetProperty interface enter
+03-13 14:11:47.120  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.120  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.177  1922 23888 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 576636)
+03-13 14:11:47.229  3982  4115 E InstallApkReceiver: uninstall:package:com.luxpro.vip
+03-13 14:11:47.275 28122 28122 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:47.275 28122 28122 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.310  1922 28190 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 576520)
+03-13 14:11:47.323  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:47.345 28122 28122 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.387  1922  7693 E PermissionManager: Missing permissions state for com.luxpro.vip and user 0
+03-13 14:11:47.388  8551 27500 E PermissionManagerProvider:  getPackageInfo is null packageName : com.luxpro.vip
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: Failed to delete the CE shared dir for Android package: com.luxpro.vip. [CONTEXT service_id=51 ]
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: java.lang.IllegalStateException: Failed to delete directory
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at gvdl.r(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at etzz.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):87)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at com.google.android.gms.phenotype.notification.PackagesChangedIntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):105)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at bbjn.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):84)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at aand.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):64)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at aanc.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):132)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at gszf.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):19)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:47.396  8844 27984 E PhSharedDirectoryWriter: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: Failed to delete the DE shared dir for Android package: com.luxpro.vip. [CONTEXT service_id=51 ]
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: java.lang.IllegalStateException: Failed to delete directory
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at gvdl.r(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at etzz.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):136)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at com.google.android.gms.phenotype.notification.PackagesChangedIntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):105)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at com.google.android.chimera.IntentOperation.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at bbjn.onHandleIntent(:com.google.android.gms@260931029@26.09.31 (190400-877989800):84)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at aand.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):64)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at aanc.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):132)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at gszf.run(:com.google.android.gms@260931029@26.09.31 (190400-877989800):19)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:47.397  8844 27984 E PhSharedDirectoryWriter: 	at java.lang.Thread.run(Thread.java:1119)
+03-13 14:11:47.399  3982  3982 E WindowElementb61fca0: com.miui.home.recents.anim.WindowElement@b61fca0 mOnShellAnimListener end CLOSE_TO_HOME_CENTER com.miui.home.recents.anim.WindowElement@b61fca0 needFinish = true
+03-13 14:11:47.399  3982  3982 E WindowElementb61fca0: com.miui.home.recents.anim.WindowElement@b61fca0 finishTransition toHome = true isHalf = false runningTaskId = 0
+03-13 14:11:47.400  1922  6948 E PermissionManager: Missing permissions state for com.luxpro.vip and user 0
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter:  doApplyAppPermissionConfig error 
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: android.content.pm.PackageManager$NameNotFoundException: com.luxpro.vip
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:219)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:213)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at com.lbe.security.service.provider.internal.AppOpsAdapter$AppOpsAdapterHandler.doApplyAppPermissionConfig(AppOpsAdapter.java:31)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at com.lbe.security.service.provider.internal.AppOpsAdapter$AppOpsAdapterHandler.handleMessage(AppOpsAdapter.java:83)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.os.Looper.loopOnce(Looper.java:222)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.os.Looper.loop(Looper.java:314)
+03-13 14:11:47.400  8551  8644 E AppOpsAdapter: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+03-13 14:11:47.410  3982  3982 E WindowTransitionCompat: com.android.systemui.shared.recents.system.WindowTransitionCompat@1a90f61 finishTransition toHome = true
+03-13 14:11:47.410  3982  3982 E TransitionCallback: call executeFinishCallback, toHome = true
+03-13 14:11:47.410  3982  3982 E TransitionCallback: java.lang.Exception
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.android.systemui.shared.recents.utilities.WindowTransitionCallbackHelper.executeFinishCallback(WindowTransitionCallbackHelper.java:230)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.android.systemui.shared.recents.utilities.WindowTransitionCallbackHelper.executeFinishCallback(WindowTransitionCallbackHelper.java:166)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.android.systemui.shared.recents.system.WindowTransitionCompat.finishTransition(WindowTransitionCompat.java:713)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.miui.home.recents.anim.WindowElement.finishTransitionCompat(WindowElement.kt:489)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.miui.home.recents.anim.WindowElement.finishTransition$lambda-3(WindowElement.kt:480)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.miui.home.recents.anim.WindowElement.$r8$lambda$F1FyjhBrHDWRO3vMK0PmJKjTVVA(Unknown Source:0)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.miui.home.recents.anim.WindowElement$$ExternalSyntheticLambda8.run(Unknown Source:8)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at android.os.Handler.handleCallback(Handler.java:958)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at android.os.Looper.loopOnce(Looper.java:222)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at android.os.Looper.loop(Looper.java:314)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at android.app.ActivityThread.main(ActivityThread.java:8857)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at java.lang.reflect.Method.invoke(Native Method)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)
+03-13 14:11:47.410  3982  3982 E TransitionCallback: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+03-13 14:11:47.427  3982  3982 E RotationHelper: setCurrentTransitionRequest: request=0
+03-13 14:11:47.466  3337  3405 E c       : NameNotFound android.uid.system:1000
+03-13 14:11:47.485  1922  6948 E PermissionManager: Missing permissions state for com.luxpro.vip and user 0
+03-13 14:11:47.515  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:47.515  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:47.515  1226  1226 E vendor.qti.hardware.perf@2.2-service: Unknown params
+03-13 14:11:47.515  1922  3227 E ProcessManager: error write exception log
+03-13 14:11:47.516  1226  1226 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:47.516  1226  1226 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:47.554  4728  4728 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.596  3982  4422 E ActivityManagerWrapper: get all recent tasks force including 2
+03-13 14:11:47.600  3982  4422 E ActivityManagerWrapper: getRecentTasksForceIncludingTaskIdIfValid: getRecentTasks: size=3
+03-13 14:11:47.600  3982  4422 E ActivityManagerWrapper:  mainTaskId=10556   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=287309824 cmp=ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity} }
+03-13 14:11:47.600  3982  4422 E ActivityManagerWrapper:  mainTaskId=10520   userId=0   windowMode=1   baseIntent=Intent { act=null flag=369098752 cmp=ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.apps.search.assistant.surfaces.voice.robin.main.MainActivity} }
+03-13 14:11:47.600  3982  4422 E ActivityManagerWrapper:  mainTaskId=10531   userId=0   windowMode=1   baseIntent=Intent { act=android.intent.action.MAIN flag=270532608 cmp=ComponentInfo{com.android.camera/com.android.camera.Camera} }
+03-13 14:11:47.648 16147 28157 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER, user: 0
+03-13 14:11:47.681 29195 29195 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.686 26405 26405 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.698 31201 31201 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.711   984   984 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.725 27290 27290 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.915 26891 26891 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.939 28078 28078 E FileUtils: err write to mi_exception_log
+03-13 14:11:47.961 31798 31798 E SlowAppComponent: 0ms: FbnsInitBroadcastReceiver instantiatingظخ
+03-13 14:11:47.961 31798 31798 E SlowAppComponent: Main thread was blocked for 41ms in the background starting with FbnsInitBroadcastReceiver
+03-13 14:11:48.003 28078 28078 E fbservices-stub:FbnsServiceDelegateV2: onBind invalid signature: Intent { act=com.facebook.push.fbns.ipc.IFbnsAIDLService cmp=com.facebook.services/com.facebook.oxygen.services.fbns.PreloadedFbnsService (has extras) }
+03-13 14:11:48.045 30048 30048 E FileUtils: err write to mi_exception_log
+03-13 14:11:48.102 28160 28160 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:48.102 28160 28160 E FileUtils: err write to mi_exception_log
+03-13 14:11:48.354  8844  9057 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+03-13 14:11:48.354  8844  9057 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.354  8844  9057 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.354  8844  9057 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.354  8844  9057 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.355  8844  9059 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+03-13 14:11:48.355  8844  9059 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.355  8844  9059 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.355  8844  9059 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.355  8844  9059 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.356  8844  8853 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/plus.me
+03-13 14:11:48.356  8844  8853 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.356  8844  8853 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.356  8844  8853 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at agdx.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):82)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):313)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.356  8844  8853 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.373  8844  9057 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+03-13 14:11:48.373  8844  9057 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.373  8844  9057 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.373  8844  9057 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.373  8844  9057 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.380  8844  9059 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+03-13 14:11:48.380  8844  9059 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.380  8844  9059 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.380  8844  9059 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.380  8844  9059 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.383  8844  8853 E AuthPII : [RequestTokenManager] getToken() -> BAD_AUTHENTICATION. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags
+03-13 14:11:48.383  8844  8853 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.383  8844  8853 E AuthPII : Message is Long live credential not available.
+03-13 14:11:48.383  8844  8853 E AuthPII : bgcc: Long live credential not available.
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agtw.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):1347)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agud.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):26)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at agub.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):738)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):55)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.h(:com.google.android.gms@260931029@26.09.31 (190400-877989800):108)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.b(:com.google.android.gms@260931029@26.09.31 (190400-877989800):817)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aged.c(:com.google.android.gms@260931029@26.09.31 (190400-877989800):5)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aaeo.d(:com.google.android.gms@260931029@26.09.31 (190400-877989800):459)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at aaeo.dispatchTransaction(:com.google.android.gms@260931029@26.09.31 (190400-877989800):153)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at byga.a(:com.google.android.gms@260931029@26.09.31 (190400-877989800):72)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at zke.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):23)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at cjzi.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):10)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.transact(Binder.java:1190)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at bygo.onTransact(:com.google.android.gms@260931029@26.09.31 (190400-877989800):161)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1346)
+03-13 14:11:48.383  8844  8853 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1282)
+03-13 14:11:48.391 28303 28303 E Zygote  : process_name_ptr:28303 com.facebook.system
+03-13 14:11:48.402 28303 28303 E facebook.system: Not starting debugger since process cannot load the jdwp agent.
+03-13 14:11:48.604 28303 28303 E FileUtils: err open mi_exception_log errno=2
+03-13 14:11:48.604 28303 28303 E FileUtils: err write to mi_exception_log
+03-13 14:11:48.650 28122 28244 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+03-13 14:11:48.976  5617  5617 E NfcApduServiceInfo: SE extension not present, Setting default offhost seID
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: Next Tag=services
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: installedServices no uidString 
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: installedServices contains uidString : 10146
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache: 1invalidateCache:WriteServiceStateToFile
+03-13 14:11:48.978  5617  5617 E RegisteredServicesCache:  Writing service state Data Always
+03-13 14:11:48.979  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.nearby.mediums.nearfieldcommunication.NfcAdvertisingService
+03-13 14:11:48.979  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.fido.fido2.ui.hybrid.NfcEmulationService
+03-13 14:11:48.979  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.pay.hce.service.PayHceService
+03-13 14:11:48.979  5617  5617 E RegisteredServicesCache: component namecom.google.android.gms/com.google.android.gms.dck.service.DckNfcApduService
+03-13 14:11:48.980  5617  5617 E libnfc_nci: [ERROR:nfa_ee_api.cc(130)] NFA_EeGetInfo bad em state: 0
+03-13 14:11:48.980  5617  5617 E libnfc_nci: [ERROR:SecureElement.cpp(1463)] SecureElement::getEeInfo: fail get info; error=0x3
+03-13 14:11:49.495 15401 15401 E FileUtils: err write to mi_exception_log
+03-13 14:11:53.877  1226  5239 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+03-13 14:11:53.877  1226  5239 E ANDR-PERF-MPCTL: perf request submission limit reached.
+03-13 14:11:53.912  1259 12799 E vendor.xiaomi.hardware.micharge@1.0-service: Failed to open node /sys/class/qcom-battery/reverse_chg_mode
+03-13 14:11:54.171 31798 28262 E FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 699
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: android.os.RemoteException: AIDLService is not bound
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: 	at X.9eW.call(Unknown Source:376)
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+03-13 14:11:54.182 31798 28262 E FbnsAIDLClientManager: 	at java.lang.Thread.run(Thread.java:1119)

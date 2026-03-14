@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardBackgroundColor="#00000000"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="8dp"> <!-- Added elevation for the floating effect -->
+
+    <LinearLayout
+        android:id="@+id/pinnedContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/bg_pinned_announcement">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <ImageView
+                android:id="@+id/imgPin"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/btn_star_big_on"
+                app:tint="#FFD700"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/txtAnnTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ann_pinned_tag"
+                android:textColor="#FFD700"
+                android:fontFamily="sans-serif-black"
+                android:textStyle="bold"
+                android:textSize="19sp"
+                android:shadowColor="#FFD700"
+                android:shadowRadius="15" />
+                
+            <TextView
+                android:id="@+id/txtAnnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_lux"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="#BBc19a00"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtAnnContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ann_content_hint"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btnAnnLink"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/ann_link_btn_pinned"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:background="@drawable/bg_neon_button_primary"
+            app:backgroundTint="#FFD700"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

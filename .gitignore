@@ -1,0 +1,32 @@
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+.gradle/
+local.properties
+.idea/
+*.iml
+*.iws
+*.ipr
+capture.png
+
+# Native
+.externalNativeBuild
+.cxx
+libs/
+obj/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+/tmp/
+.gemini/
+brain/
+*.map
+mapping.txt

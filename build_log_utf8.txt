@@ -1,0 +1,423 @@
+﻿
+> Configure project :app
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a] FAILED
+C/C++: ninja: Entering directory `D:\LUXPRO\app\.cxx\RelWithDebInfo\1w86w246\arm64-v8a'
+C/C++: cmd.exe /C "cd . && C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -O2 -g -DNDEBUG  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -Wl,--gc-sections -shared -Wl,-soname,libLUXPRO.so -o D:\LUXPRO\app\build\intermediates\cxx\RelWithDebInfo\1w86w246\obj\arm64-v8a\libLUXPRO.so CMakeFiles/LUXPRO.dir/core/core_engine.cpp.o CMakeFiles/LUXPRO.dir/core/jni_bridge.cpp.o CMakeFiles/LUXPRO.dir/core/auto_play.cpp.o CMakeFiles/LUXPRO.dir/core/sentinel.cpp.o CMakeFiles/LUXPRO.dir/core/bot_automation.cpp.o CMakeFiles/LUXPRO.dir/core/hook_manager.cpp.o CMakeFiles/LUXPRO.dir/security/ghost_protocol.cpp.o CMakeFiles/LUXPRO.dir/security/crypto_layer.cpp.o CMakeFiles/LUXPRO.dir/security/polymorphic_engine.cpp.o CMakeFiles/LUXPRO.dir/security/anti_telemetry.cpp.o CMakeFiles/LUXPRO.dir/vfx/vfx_shader.cpp.o CMakeFiles/LUXPRO.dir/native-lib.cpp.o CMakeFiles/LUXPRO.dir/lux_os.cpp.o CMakeFiles/LUXPRO.dir/Menu.cpp.o CMakeFiles/LUXPRO.dir/imgui/imgui.cpp.o CMakeFiles/LUXPRO.dir/imgui/imgui_demo.cpp.o CMakeFiles/LUXPRO.dir/imgui/imgui_draw.cpp.o CMakeFiles/LUXPRO.dir/imgui/imgui_tables.cpp.o CMakeFiles/LUXPRO.dir/imgui/imgui_widgets.cpp.o CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_opengl3.cpp.o  C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/liblog.so  C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libGLESv3.so  C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libEGL.so  C:/Users/NMS-PC/.gradle/caches/8.13/transforms/204006710edd097c9261c3772653ad02/transformed/shadowhook-1.0.9/prefab/modules/shadowhook/libs/android.arm64-v8a/libshadowhook.so  -latomic -lm && cd ."
+C/C++: ld.lld: error: undefined symbol: AInputEvent_getType
+C/C++: >>> referenced by imgui_impl_android.cpp:162 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:162)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AKeyEvent_getKeyCode
+C/C++: >>> referenced by imgui_impl_android.cpp:167 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:167)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AKeyEvent_getScanCode
+C/C++: >>> referenced by imgui_impl_android.cpp:168 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:168)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AKeyEvent_getAction
+C/C++: >>> referenced by imgui_impl_android.cpp:169 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:169)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AKeyEvent_getMetaState
+C/C++: >>> referenced by imgui_impl_android.cpp:170 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:170)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getAction
+C/C++: >>> referenced by imgui_impl_android.cpp:201 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:201)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getToolType
+C/C++: >>> referenced by imgui_impl_android.cpp:205 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:205)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: >>> referenced by imgui_impl_android.cpp:228 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:228)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getAxisValue
+C/C++: >>> referenced by imgui_impl_android.cpp:250 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:250)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: >>> referenced by imgui_impl_android.cpp:250 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:250)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getX
+C/C++: >>> referenced by imgui_impl_android.cpp:231 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:231)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: >>> referenced by imgui_impl_android.cpp:247 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:247)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getY
+C/C++: >>> referenced by imgui_impl_android.cpp:231 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:231)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: >>> referenced by imgui_impl_android.cpp:247 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:247)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: AMotionEvent_getButtonState
+C/C++: >>> referenced by imgui_impl_android.cpp:239 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:239)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_HandleInputEvent(AInputEvent const*))
+C/C++: ld.lld: error: undefined symbol: ANativeWindow_getWidth
+C/C++: >>> referenced by imgui_impl_android.cpp:289 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:289)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_NewFrame())
+C/C++: ld.lld: error: undefined symbol: ANativeWindow_getHeight
+C/C++: >>> referenced by imgui_impl_android.cpp:290 (D:/LUXPRO/app/src/main/cpp/imgui/backends/imgui_impl_android.cpp:290)
+C/C++: >>>               CMakeFiles/LUXPRO.dir/imgui/backends/imgui_impl_android.cpp.o:(ImGui_ImplAndroid_NewFrame())
+C/C++: clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+C/C++: ninja: build stopped: subcommand failed.
+.\gradlew : 
+At line:1 char:63
++ ... d\Android Studio\jbr"; 
+.\gradlew assembleRelease > 
+build_log.txt 2>&1
++                            ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo            
+  : NotSpecifi    ed: 
+(:String) [],     
+RemoteException
+    + FullyQualifiedEr    
+rorId : NativeComm    andError
+ 
+FAILURE: Build failed with an 
+exception.
+
+* What went wrong:
+Execution failed for task ':ap
+p:buildCMakeRelWithDebInfo[arm
+64-v8a]'.
+> com.android.ide.common.proce
+ss.ProcessException: ninja: 
+Entering directory `D:\LUXPRO\
+app\.cxx\RelWithDebInfo\1w86w2
+46\arm64-v8a'
+  [1/1] Linking CXX shared 
+library D:\LUXPRO\app\build\in
+termediates\cxx\RelWithDebInfo
+\1w86w246\obj\arm64-v8a\libLUX
+PRO.so
+  FAILED: D:/LUXPRO/app/build/
+intermediates/cxx/RelWithDebIn
+fo/1w86w246/obj/arm64-v8a/libL
+UXPRO.so 
+  cmd.exe /C "cd . && C:\Users
+\NMS-PC\AppData\Local\Android\
+Sdk\ndk\27.0.12077973\toolchai
+ns\llvm\prebuilt\windows-x86_6
+4\bin\clang++.exe --target=aar
+ch64-none-linux-android24 --sy
+sroot=C:/Users/NMS-PC/AppData/
+Local/Android/Sdk/ndk/27.0.120
+77973/toolchains/llvm/prebuilt
+/windows-x86_64/sysroot -fPIC 
+-g -DANDROID -fdata-sections 
+-ffunction-sections 
+-funwind-tables 
+-fstack-protector-strong 
+-no-canonical-prefixes 
+-D_FORTIFY_SOURCE=2 -Wformat 
+-Werror=format-security  
+-std=c++17 -O2 -g -DNDEBUG  
+-static-libstdc++ 
+-Wl,--build-id=sha1 
+-Wl,--no-rosegment 
+-Wl,--no-undefined-version 
+-Wl,--fatal-warnings 
+-Wl,--no-undefined 
+-Qunused-arguments  
+-Wl,--gc-sections -shared 
+-Wl,-soname,libLUXPRO.so -o D:
+\LUXPRO\app\build\intermediate
+s\cxx\RelWithDebInfo\1w86w246\
+obj\arm64-v8a\libLUXPRO.so CMa
+keFiles/LUXPRO.dir/core/core_e
+ngine.cpp.o CMakeFiles/LUXPRO.
+dir/core/jni_bridge.cpp.o CMak
+eFiles/LUXPRO.dir/core/auto_pl
+ay.cpp.o CMakeFiles/LUXPRO.dir
+/core/sentinel.cpp.o CMakeFile
+s/LUXPRO.dir/core/bot_automati
+on.cpp.o CMakeFiles/LUXPRO.dir
+/core/hook_manager.cpp.o CMake
+Files/LUXPRO.dir/security/ghos
+t_protocol.cpp.o CMakeFiles/LU
+XPRO.dir/security/crypto_layer
+.cpp.o CMakeFiles/LUXPRO.dir/s
+ecurity/polymorphic_engine.cpp
+.o CMakeFiles/LUXPRO.dir/secur
+ity/anti_telemetry.cpp.o CMake
+Files/LUXPRO.dir/vfx/vfx_shade
+r.cpp.o CMakeFiles/LUXPRO.dir/
+native-lib.cpp.o CMakeFiles/LU
+XPRO.dir/lux_os.cpp.o CMakeFil
+es/LUXPRO.dir/Menu.cpp.o CMake
+Files/LUXPRO.dir/imgui/imgui.c
+pp.o CMakeFiles/LUXPRO.dir/img
+ui/imgui_demo.cpp.o CMakeFiles
+/LUXPRO.dir/imgui/imgui_draw.c
+pp.o CMakeFiles/LUXPRO.dir/img
+ui/imgui_tables.cpp.o CMakeFil
+es/LUXPRO.dir/imgui/imgui_widg
+ets.cpp.o CMakeFiles/LUXPRO.di
+r/imgui/backends/imgui_impl_an
+droid.cpp.o CMakeFiles/LUXPRO.
+dir/imgui/backends/imgui_impl_
+opengl3.cpp.o  C:/Users/NMS-PC
+/AppData/Local/Android/Sdk/ndk
+/27.0.12077973/toolchains/llvm
+/prebuilt/windows-x86_64/sysro
+ot/usr/lib/aarch64-linux-andro
+id/24/liblog.so  C:/Users/NMS-
+PC/AppData/Local/Android/Sdk/n
+dk/27.0.12077973/toolchains/ll
+vm/prebuilt/windows-x86_64/sys
+root/usr/lib/aarch64-linux-and
+roid/24/libGLESv3.so  C:/Users
+/NMS-PC/AppData/Local/Android/
+Sdk/ndk/27.0.12077973/toolchai
+ns/llvm/prebuilt/windows-x86_6
+4/sysroot/usr/lib/aarch64-linu
+x-android/24/libEGL.so  C:/Use
+rs/NMS-PC/.gradle/caches/8.13/
+transforms/204006710edd097c926
+1c3772653ad02/transformed/shad
+owhook-1.0.9/prefab/modules/sh
+adowhook/libs/android.arm64-v8
+a/libshadowhook.so  -latomic 
+-lm && cd ."
+  ld.lld: error: undefined 
+symbol: AInputEvent_getType
+  >>> referenced by 
+imgui_impl_android.cpp:162 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:162)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AKeyEvent_getKeyCode
+  >>> referenced by 
+imgui_impl_android.cpp:167 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:167)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AKeyEvent_getScanCode
+  >>> referenced by 
+imgui_impl_android.cpp:168 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:168)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AKeyEvent_getAction
+  >>> referenced by 
+imgui_impl_android.cpp:169 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:169)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AKeyEvent_getMetaState
+  >>> referenced by 
+imgui_impl_android.cpp:170 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:170)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AMotionEvent_getAction
+  >>> referenced by 
+imgui_impl_android.cpp:201 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:201)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: 
+AMotionEvent_getToolType
+  >>> referenced by 
+imgui_impl_android.cpp:205 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:205)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  >>> referenced by 
+imgui_impl_android.cpp:228 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:228)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: 
+AMotionEvent_getAxisValue
+  >>> referenced by 
+imgui_impl_android.cpp:250 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:250)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  >>> referenced by 
+imgui_impl_android.cpp:250 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:250)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AMotionEvent_getX
+  >>> referenced by 
+imgui_impl_android.cpp:231 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:231)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  >>> referenced by 
+imgui_impl_android.cpp:247 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:247)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: AMotionEvent_getY
+  >>> referenced by 
+imgui_impl_android.cpp:231 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:231)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  >>> referenced by 
+imgui_impl_android.cpp:247 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:247)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: 
+AMotionEvent_getButtonState
+  >>> referenced by 
+imgui_impl_android.cpp:239 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:239)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_HandleInputEvent(AI
+nputEvent const*))
+  
+  ld.lld: error: undefined 
+symbol: ANativeWindow_getWidth
+  >>> referenced by 
+imgui_impl_android.cpp:289 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:289)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_NewFrame())
+  
+  ld.lld: error: undefined 
+symbol: 
+ANativeWindow_getHeight
+  >>> referenced by 
+imgui_impl_android.cpp:290 (D:
+/LUXPRO/app/src/main/cpp/imgui
+/backends/imgui_impl_android.c
+pp:290)
+  >>>               CMakeFiles
+/LUXPRO.dir/imgui/backends/img
+ui_impl_android.cpp.o:(ImGui_I
+mplAndroid_NewFrame())
+  clang++: error: linker 
+command failed with exit code 
+1 (use -v to see invocation)
+  ninja: build stopped: 
+subcommand failed.
+  
+  C++ build system [build] 
+failed while executing:
+      @echo off
+      "C:\\Users\\NMS-PC\\AppD
+ata\\Local\\Android\\Sdk\\cmak
+e\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "D:\\LUXPRO\\app\\.cxx
+\\RelWithDebInfo\\1w86w246\\ar
+m64-v8a" ^
+        LUXPRO
+    from D:\LUXPRO\app
+
+* Try:
+> Run with --stacktrace 
+option to get the stack trace.
+> Run with --info or --debug 
+option to get more log output.
+> Run with --scan to get full 
+insights.
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 3s
+2 actionable tasks: 2 executed

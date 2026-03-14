@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_nebula_alien"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_transparent"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activation_title"
+        android:textColor="#DF00FF"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:letterSpacing="0.05"
+        android:shadowColor="#DF00FF"
+        android:shadowRadius="10"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activation_status"
+        android:textColor="#FF4444"
+        android:fontFamily="monospace"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/keyInput"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:hint="@string/activation_hint"
+        android:textColorHint="#A0A0A0"
+        android:textColor="#00FFFF"
+        android:fontFamily="monospace"
+        android:background="@drawable/bg_glass_input_neon"
+        android:layout_margin="30dp"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnActivate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/activation_btn"
+        android:background="@drawable/bg_neon_button_primary"
+        app:backgroundTint="@null"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:letterSpacing="0.05"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"/>
+
+    <TextView
+        android:id="@+id/deviceDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_hwid_label"
+        android:textColor="#A0A0A0"
+        android:fontFamily="monospace"
+        android:layout_marginTop="50dp"
+        android:textSize="10sp"/>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="#DF00FF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.05"
+            android:shadowColor="#DF00FF"
+            android:shadowRadius="10"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"/>
+            
+        <Button
+            android:id="@+id/btnLanguageToggleSettings"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/settings_lang_btn"
+            android:background="@drawable/bg_neon_button_secondary"
+            app:backgroundTint="@null"
+            android:textColor="#00FFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- Profile -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#261A0033"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_glass_input_neon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_profile_title"
+                    android:textColor="#DF00FF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginBottom="16dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10dp">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_email"
+                        app:tint="#00FFFF"
+                        android:layout_marginEnd="10dp"/>
+                    <TextView
+                        android:id="@+id/txtProfileEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_uplink_label"
+                        android:textColor="#E0E0E0"
+                        android:fontFamily="monospace"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_clock_reward"
+                        app:tint="#00FFFF"
+                        android:layout_marginEnd="10dp"/>
+                    <TextView
+                        android:id="@+id/txtProfileSubscription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/settings_sub_label"
+                        android:textColor="#FFD700"
+                        android:fontFamily="monospace"
+                        android:textSize="13sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_hwid_label"
+                    android:textColor="#A0A0A0"
+                    android:textSize="10sp"
+                    android:fontFamily="monospace"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="4dp"/>
+                <TextView
+                    android:id="@+id/txtHwidSettings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hwid_label_simple"
+                    android:textColor="#FF69B4"
+                    android:fontFamily="monospace"
+                    android:textSize="10sp"
+                    android:background="#1A000000"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Menu Customization -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#261A0033"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_glass_input_neon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_overlay_title"
+                    android:textColor="#00FFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_overlay_size"
+                    android:textColor="#E0E0E0"
+                    android:fontFamily="monospace"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="8dp"/>
+                <SeekBar
+                    android:id="@+id/seekIconSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="50"
+                    android:progressTint="#DF00FF"
+                    android:thumbTint="#00FFFF"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_overlay_opacity"
+                    android:textColor="#E0E0E0"
+                    android:fontFamily="monospace"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="8dp"/>
+                <SeekBar
+                    android:id="@+id/seekIconOpacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="100"
+                    android:progressTint="#DF00FF"
+                    android:thumbTint="#00FFFF"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Links -->
+        <Button
+            android:id="@+id/btnSettingsResellers"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/settings_buy_btn"
+            android:background="@drawable/bg_neon_button_secondary"
+            app:backgroundTint="@null"
+            android:textColor="#FFD700"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnPrivacy"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/settings_privacy_btn"
+            android:background="@drawable/bg_neon_button_secondary"
+            app:backgroundTint="@null"
+            android:textColor="#A0A0A0"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnTelegram"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/contact_dev_btn"
+            android:background="@drawable/bg_neon_button_secondary"
+            app:backgroundTint="@null"
+            android:textColor="#DF00FF"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/settings_logout_btn"
+            android:background="@drawable/bg_neon_button_primary"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.05"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

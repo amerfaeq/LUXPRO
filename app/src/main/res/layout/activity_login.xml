@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_nebula_alien">
+
+    <!-- Active Data Matrix Stream (Layer 1 Background) -->
+    <com.luxpro.vip.ActiveDataStreamView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- UI Layer -->
+    <ScrollView 
+        android:id="@+id/login_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Language Toggle Globe Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginBottom="10dp">
+                
+                <Button
+                    android:id="@+id/btnLangToggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="@string/language_toggle"
+                    android:background="@drawable/bg_neon_button_secondary"
+                    app:backgroundTint="@null"
+                    android:textColor="#00FFFF"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo_transparent"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_title"
+                android:textColor="#DF00FF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:letterSpacing="0.05"
+                android:shadowColor="#DF00FF"
+                android:shadowRadius="15"
+                android:layout_marginBottom="35dp"/>
+
+            <!-- Glassmorphism Container for Inputs -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_glass_input_neon"
+                android:padding="24dp"
+                android:layout_marginBottom="30dp">
+
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="@string/email_hint"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#A0A0A0"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="monospace"
+                    android:textSize="14sp"
+                    android:inputType="textEmailAddress"
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawablePadding="16dp"
+                    android:drawableTint="#00FFFF"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#3300FFFF"
+                    android:layout_marginBottom="16dp"/>
+
+                <EditText
+                    android:id="@+id/edPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="@string/password_hint"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#A0A0A0"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="monospace"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawablePadding="16dp"
+                    android:drawableTint="#00FFFF"
+                    android:padding="12dp"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Options Row -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp">
+
+                    <CheckBox
+                        android:id="@+id/cbRemember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remember_me"
+                        android:textColor="#00FFFF"
+                        android:fontFamily="monospace"
+                        android:textSize="12sp"
+                        android:buttonTint="#DF00FF"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:id="@+id/txtForgotPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forgot_password"
+                        android:textColor="#DF00FF"
+                        android:fontFamily="monospace"
+                        android:textSize="12sp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!-- Primary Action -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="@string/login_btn"
+                android:background="@drawable/bg_neon_button_primary"
+                app:backgroundTint="@null"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:letterSpacing="0.05"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Secondary Actions -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="@string/create_account_btn"
+                android:background="@drawable/bg_neon_button_secondary"
+                app:backgroundTint="@null"
+                android:textColor="#00FFFF"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btnResellers"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="@string/buy_key_btn"
+                    android:background="@drawable/bg_neon_button_secondary"
+                    app:backgroundTint="@null"
+                    android:textColor="#FFD700"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="6dp"/>
+
+                <Button
+                    android:id="@+id/btnDevContact"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:text="@string/contact_dev_btn"
+                    android:background="@drawable/bg_neon_button_secondary"
+                    app:backgroundTint="@null"
+                    android:textColor="#DF00FF"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginStart="6dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fullscreen Loading Overlay -->
+    <RelativeLayout
+        android:id="@+id/loadingOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_glass_input_neon"
+            android:padding="24dp">
+
+            <ProgressBar
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminateTint="#DF00FF"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_loading"
+                android:textColor="#00FFFF"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <!-- Professional Bridge UI Transition Container -->
+    <LinearLayout
+        android:id="@+id/layout_bridge_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_nebula_alien"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_transparent"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bridge_title"
+            android:textColor="#DF00FF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#2200FFFF"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="24dp">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt_bridge_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bridge_status_connecting"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:fontFamily="monospace"
+                    android:layout_marginBottom="12dp"/>
+                
+                <ProgressBar
+                    android:id="@+id/progress_bridge"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:indeterminateTint="#00FFFF"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_launch_bridge"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/bridge_btn_connect"
+            android:background="@drawable/bg_neon_button_primary"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bridge_warning"
+            android:textColor="#FF4444"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

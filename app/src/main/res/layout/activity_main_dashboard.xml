@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_nebula_alien">
+
+    <!-- Active Data Matrix Stream (Layer 1 Background) -->
+    <com.luxpro.vip.ActiveDataStreamView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Toolbar / System Header -->
+        <RelativeLayout
+            android:id="@+id/appToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/bg_glass_input_neon">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:text="@string/dashboard_title"
+                android:textColor="#00FFFF"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed"
+                android:letterSpacing="0.1"
+                android:shadowColor="#00FFFF"
+                android:shadowRadius="10"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/btnLanguageToggle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/ic_menu_sort_alphabetically"
+                android:background="@drawable/bg_glass_input_neon"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:tint="#DF00FF"
+                android:contentDescription="@string/toggle_lang_desc" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@android:color/transparent">
+            
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_glass_input_neon"
+                app:menu="@menu/bottom_nav_menu"
+                app:itemIconTint="#DF00FF"
+                app:itemTextColor="#FFFFFF"
+                app:labelVisibilityMode="labeled"
+                android:elevation="0dp"/>
+                
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

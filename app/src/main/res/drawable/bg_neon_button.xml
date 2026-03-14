@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FFFFFF">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Neon cyan/teal gradient for generic mod menu actions -->
+            <gradient
+                android:angle="0"
+                android:startColor="#003366"
+                android:endColor="#006699" />
+            <stroke
+                android:width="2dp"
+                android:color="#00FFFF" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+</ripple>

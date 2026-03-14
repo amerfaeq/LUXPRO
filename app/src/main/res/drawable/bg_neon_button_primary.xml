@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#FFFFFF">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Holographic/Electric Purple gradient -->
+            <gradient
+                android:angle="0"
+                android:endColor="#9400D3"
+                android:startColor="#4B0082" />
+            <stroke
+                android:width="2dp"
+                android:color="#DF00FF" /> <!-- Subtle neon outer glow -->
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</ripple>
