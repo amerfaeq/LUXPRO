@@ -17,17 +17,15 @@ android {
         versionName = "1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
-            cmake {
-                cppFlags += "-std=c++17 -fsanitize=address -fno-omit-frame-pointer"
-                cFlags += "-fsanitize=address -fno-omit-frame-pointer"
-                arguments += "-DANDROID_ARM_MODE=arm"
+            ndkBuild {
+                arguments += "NDK_APPLICATION_MK=src/main/cpp/Application.mk"
                 abiFilters.clear()
-                abiFilters.add("arm64-v8a")
+                abiFilters.addAll(listOf("arm64-v8a", "armeabi-v7a"))
             }
         }
         ndk {
             abiFilters.clear()
-            abiFilters.add("arm64-v8a")
+            abiFilters.addAll(listOf("arm64-v8a", "armeabi-v7a"))
         }
     }
 
@@ -75,9 +73,8 @@ android {
     }
 
     externalNativeBuild {
-        cmake {
-            path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.22.1"
+        ndkBuild {
+            path = file("src/main/cpp/Android.mk")
         }
     }
 
