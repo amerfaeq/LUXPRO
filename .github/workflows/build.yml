@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -24,11 +24,14 @@ jobs:
         distribution: 'temurin'
         cache: 'gradle'
 
+    - name: Setup Android NDK
+      uses: nwasisto/setup-android-ndk@v1
+      with:
+        ndk-version: r25b
+
     - name: Build Native Libraries
       run: |
-        # Use default NDK path for Ubuntu 22.04
-        # NDK 25.2.9519653 is standard on GH Actions
-        $ANDROID_SDK_ROOT/ndk/25.2.9519653/ndk-build -C app/src/main/cpp NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=Android.mk APP_ABI="arm64-v8a armeabi-v7a"
+        ${ANDROID_NDK_HOME}/ndk-build -C app/src/main/cpp NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=Android.mk APP_ABI="arm64-v8a armeabi-v7a"
 
     - name: Build Android App
       run: |
