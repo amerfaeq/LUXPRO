@@ -12,7 +12,7 @@ import android.view.animation.OvershootInterpolator;
 
 public class NeonTouchListener implements View.OnTouchListener {
 
-    private Vibrator vibrator;
+    private final Vibrator vibrator;
 
     public NeonTouchListener(Context context) {
         vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);

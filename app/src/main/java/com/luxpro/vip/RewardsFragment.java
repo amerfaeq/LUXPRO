@@ -76,7 +76,7 @@ public class RewardsFragment extends Fragment {
                 
                 // 5-day cycle = 432,000,000 ms
                 long cycleMillis = 5 * 24 * 60 * 60 * 1000L;
-                long windowMillis = 1 * 60 * 60 * 1000L; // 1-hour window
+                long windowMillis = 60 * 60 * 1000L; // 1-hour window
                 long now = TimeSyncManager.getServerTime();
                 
                 long currentCycleStart = (now / cycleMillis) * cycleMillis;

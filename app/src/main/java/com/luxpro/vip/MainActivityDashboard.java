@@ -22,7 +22,7 @@ import com.google.firebase.crashlytics.FirebaseCrashlytics;
 
 public class MainActivityDashboard extends BaseActivity {
 
-    private Handler timerHandler = new Handler(Looper.getMainLooper());
+    private final Handler timerHandler = new Handler(Looper.getMainLooper());
     public boolean isEngineReady = false;
     private BottomNavigationView bottomNav;
 

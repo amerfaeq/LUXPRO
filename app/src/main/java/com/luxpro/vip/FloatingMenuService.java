@@ -75,8 +75,8 @@ public class FloatingMenuService extends Service {
     private boolean bridgeActive = false;
 
     // Icon size/opacity from settings
-    private int iconSize = 130;
-    private float iconAlpha = 1.0f;
+    private final int iconSize = 130;
+    private final float iconAlpha = 1.0f;
 
     private static final String CHANNEL_ID = "LuxProChannel";
     private static final int NOTIF_ID = 1001;
@@ -321,7 +321,7 @@ public class FloatingMenuService extends Service {
                 enabled -> setFeature(3, enabled));
 
         bindSwitch(R.id.sw_break_detector, isArabic ? "الدخول التلقائي" : "Automatic Entry",
-                enabled -> setFeature(1, enabled));
+                NativeEngine::setAutomaticEntry);
 
         // Line Width
         SeekBar seekWidth = modMenuView.findViewById(R.id.seek_line_width);

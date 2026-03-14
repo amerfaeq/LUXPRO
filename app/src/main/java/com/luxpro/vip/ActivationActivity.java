@@ -67,7 +67,7 @@ public class ActivationActivity extends BaseActivity {
     private void activateRewardKey(String enteredKey, String userHWID) {
         // Reward key lasts for the duration of the 1-hour window in the 5-day cycle
         long cycleMillis = 5 * 24 * 60 * 60 * 1000L;
-        long windowMillis = 1 * 60 * 60 * 1000L;
+        long windowMillis = 60 * 60 * 1000L;
         long now = TimeSyncManager.getServerTime();
         long currentCycleStart = (now / cycleMillis) * cycleMillis;
         long windowEnd = currentCycleStart + windowMillis;

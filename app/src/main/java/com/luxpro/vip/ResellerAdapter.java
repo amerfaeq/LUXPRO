@@ -14,9 +14,9 @@ import java.util.List;
 
 public class ResellerAdapter extends BaseExpandableListAdapter {
 
-    private Context context;
-    private List<String> listDataHeader;
-    private HashMap<String, List<ResellerModel>> listDataChild;
+    private final Context context;
+    private final List<String> listDataHeader;
+    private final HashMap<String, List<ResellerModel>> listDataChild;
 
     public ResellerAdapter(Context context, List<String> listDataHeader,
             HashMap<String, List<ResellerModel>> listChildData) {

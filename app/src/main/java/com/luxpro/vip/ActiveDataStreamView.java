@@ -11,13 +11,13 @@ import java.util.Random;
 
 public class ActiveDataStreamView extends View {
 
-    private Paint paint;
+    private final Paint paint;
     private int width, height;
-    private int textSize = 28;
-    private char[] chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワン23456789ABCDEFGHIJKLMNOPQRSTUVWXYZLUXPRO"
+    private final int textSize = 28;
+    private final char[] chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワン23456789ABCDEFGHIJKLMNOPQRSTUVWXYZLUXPRO"
             .toCharArray();
     private int[] drops;
-    private Random random = new Random();
+    private final Random random = new Random();
 
     public ActiveDataStreamView(Context context, AttributeSet attrs) {
         super(context, attrs);

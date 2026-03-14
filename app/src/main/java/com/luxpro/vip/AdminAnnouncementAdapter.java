@@ -17,8 +17,8 @@ import java.util.List;
 import java.util.Locale;
 
 public class AdminAnnouncementAdapter extends RecyclerView.Adapter<AdminAnnouncementAdapter.ViewHolder> {
-    private Context context;
-    private List<AnnouncementModel> list;
+    private final Context context;
+    private final List<AnnouncementModel> list;
 
     public AdminAnnouncementAdapter(Context context, List<AnnouncementModel> list) {
         this.context = context;

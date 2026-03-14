@@ -24,8 +24,8 @@ public class AnnouncementAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     private static final int TYPE_PINNED = 1;
     private static final int TYPE_NORMAL = 2;
 
-    private List<AnnouncementModel> list;
-    private Context context;
+    private final List<AnnouncementModel> list;
+    private final Context context;
     private int lastPosition = -1;
 
     public AnnouncementAdapter(Context context, List<AnnouncementModel> list) {

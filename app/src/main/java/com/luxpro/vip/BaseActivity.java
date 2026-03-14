@@ -38,8 +38,8 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
-    private android.os.Handler monitorHandler = new android.os.Handler(android.os.Looper.getMainLooper());
-    private Runnable monitorRunnable = new Runnable() {
+    private final android.os.Handler monitorHandler = new android.os.Handler(android.os.Looper.getMainLooper());
+    private final Runnable monitorRunnable = new Runnable() {
         @Override
         public void run() {
             checkSubscriptionStatus();

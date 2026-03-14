@@ -10,7 +10,7 @@ import java.util.List;
 
 public class SentinelLogAdapter extends RecyclerView.Adapter<SentinelLogAdapter.LogViewHolder> {
 
-    private List<SentinelLogModel> logList;
+    private final List<SentinelLogModel> logList;
 
     public SentinelLogAdapter(List<SentinelLogModel> logList) {
         this.logList = logList;

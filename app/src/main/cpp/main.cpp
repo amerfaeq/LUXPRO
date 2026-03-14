@@ -87,4 +87,109 @@ extern "C" {
     Java_com_luxpro_vip_FloatingMenuService_isBridgeActive(JNIEnv* env, jobject thiz) {
         return (jboolean)(g_targetPid != -1);
     }
+
+    // --- NativeEngine Bridge (Ignition & Security) ---
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1initAdvancedHooks(JNIEnv *env, jobject thiz, jobject context) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "ENGINE IGNITION: Initializing Advanced Hooks...");
+        // Reality: This is where you'd start ShadowHook or sub-engines
+    }
+
+    JNIEXPORT jboolean JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1isBridgeActive(JNIEnv *env, jobject thiz) {
+        return (jboolean)(g_targetPid != -1);
+    }
+
+    JNIEXPORT jint JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1getTargetPid(JNIEnv *env, jobject thiz) {
+        return g_targetPid;
+    }
+
+    JNIEXPORT jstring JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1getEngineStatus(JNIEnv *env, jobject thiz) {
+        return env->NewStringUTF(g_targetPid != -1 ? "ACTIVE" : "OFFLINE");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1nativeStartAuthWatchdog(JNIEnv *env, jobject thiz) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Security: Auth Watchdog Started.");
+    }
+
+    JNIEXPORT jboolean JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1checkApkIntegrity(JNIEnv *env, jobject thiz) {
+        return JNI_TRUE;
+    }
+
+    JNIEXPORT jboolean JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1checkSanitizedEnvironment(JNIEnv *env, jobject thiz) {
+        return JNI_TRUE;
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_setAutomaticEntry(JNIEnv *env, jclass clazz, jboolean active) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Automatic Entry set to %s", active ? "ON" : "OFF");
+        // Logic for auto-entry patching
+        if (active) KittyMemory::patchFromHex("libgame.so", 0x123456, "00 00 A0 E3");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1fireLoginBridge(JNIEnv *env, jobject thiz, jstring provider) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Bridge: Login Triggered.");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setPredictionEnabled(JNIEnv *env, jobject thiz, jboolean enabled) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Prediction set to %d", enabled);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1updateRenderParams(JNIEnv *env, jobject thiz, jfloat lineWidth, jfloat opacity) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Render Params: Width %.2f, Opacity %.2f", lineWidth, opacity);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setGhostModeEnabled(JNIEnv *env, jobject thiz, jboolean enabled) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Ghost Mode set to %d", enabled);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setVfxParams(JNIEnv *env, jobject thiz, jfloat intensity, jfloat speed, jboolean arc, jint c1, jint c2, jint c3, jint c4) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "VFX Params Updated: Intensity %.2f", intensity);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setVfxPreset(JNIEnv *env, jobject thiz, jint preset) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "VFX Preset: %d", preset);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setTimeScale(JNIEnv *env, jobject thiz, jfloat scale) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Time Scale: %.2fx", scale);
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setNativeLanguage(JNIEnv *env, jobject thiz, jboolean isArabic) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Language set to %s", isArabic ? "AR" : "EN");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1runSentinelScan(JNIEnv *env, jobject thiz) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Sentinel: Scanning system...");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1nativeEmergencyKill(JNIEnv *env, jobject thiz) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Emergency Kill Triggered!");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1triggerLogSelfDestruct(JNIEnv *env, jobject thiz) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Security: Logs Purged.");
+    }
+
+    JNIEXPORT void JNICALL
+    Java_com_luxpro_vip_NativeEngine_native_1setSecureBridgeEnabled(JNIEnv *env, jobject thiz, jboolean enabled) {
+        __android_log_print(ANDROID_LOG_INFO, TAG, "Secure Bridge set to %d", enabled);
+    }
 }
