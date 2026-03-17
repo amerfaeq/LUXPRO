@@ -1,0 +1,390 @@
+
+> Configure project :app
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:injectCrashlyticsBuildIdsDebug NO-SOURCE
+> Task :app:injectCrashlyticsMappingFileIdDebug UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:processDebugNavigationResources
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+warn: removing resource com.luxpro.vip:string/feature_pocket_multiplier without required default value.
+
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin NO-SOURCE
+
+> Task :app:compileDebugJavaWithJavac
+./gradlew : D:\LUXPRO\app\src\main\java\com\luxpro\vip\BaseActivity.java:133: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+At line:1 char:53
++ ... a\jdk-17.0.18"; ./gradlew assembleDebug > final_build_output.txt 2>&1
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\LUXPRO\app\s...been deprecated:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+            overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+            ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\ActivationActivity.java:128: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+                                overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+                                ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\ActivationActivity.java:173: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+                overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+                ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\auth\BridgeWebViewActivity.java:83: warning: [deprecation] onBackPressed() 
+in ComponentActivity has been deprecated
+    public void onBackPressed() {
+                ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\auth\BridgeWebViewActivity.java:87: warning: [deprecation] onBackPressed() 
+in ComponentActivity has been deprecated
+            super.onBackPressed();
+                 ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:201: warning: [deprecation] TYPE_PHONE in 
+LayoutParams has been deprecated
+                            : WindowManager.LayoutParams.TYPE_PHONE,
+                                                        ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:267: warning: [deprecation] TYPE_PHONE in 
+LayoutParams has been deprecated
+                        : WindowManager.LayoutParams.TYPE_PHONE,
+                                                    ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:356: error: cannot find symbol
+        if (btnLang != null) btnLang.setOnClickListener(v -> toggleLanguage());
+                                                             ^
+  symbol:   method toggleLanguage()
+  location: class FloatingMenuService
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:366: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_pocket_clearance, R.string.feature_pocket_clearance, 
+NativeEngine.getInstance()::togglePocketClearance);
+                               ^
+  symbol:   variable item_pocket_clearance
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:367: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_cue_landing, R.string.feature_cue_landing, 
+NativeEngine.getInstance()::toggleCueLanding);
+                               ^
+  symbol:   variable item_cue_landing
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:368: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_power_guide, R.string.feature_power_guide, 
+NativeEngine.getInstance()::togglePowerGuide);
+                               ^
+  symbol:   variable item_power_guide
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:369: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_dead_end, R.string.feature_dead_end, 
+NativeEngine.getInstance()::toggleDeadEndAlert);
+                               ^
+  symbol:   variable item_dead_end
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:372: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_break_predictor, R.string.feature_break_predictor, (checked) -> {
+                               ^
+  symbol:   variable item_break_predictor
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:375: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_opponent_tracer, R.string.feature_opponent_tracer, 
+NativeEngine.getInstance()::toggleOpponentTracer);
+                               ^
+  symbol:   variable item_opponent_tracer
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:391: error: cannot find symbol
+        bindUltimateSwitch(R.id.item_human_delay, R.string.feature_human_emulator, 
+NativeEngine.getInstance()::toggleHumanizeDelay);
+                               ^
+  symbol:   variable item_human_delay
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:589: error: cannot find symbol
+        TextView tvTraj = modMenuView.findViewById(R.id.tv_sec_trajectories);
+                                                       ^
+  symbol:   variable tv_sec_trajectories
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:592: error: cannot find symbol
+        TextView tvRadar = modMenuView.findViewById(R.id.tv_sec_radar);
+                                                        ^
+  symbol:   variable tv_sec_radar
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:595: error: cannot find symbol
+        TextView tvShield = modMenuView.findViewById(R.id.tv_sec_protection);
+                                                         ^
+  symbol:   variable tv_sec_protection
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:604: error: cannot find symbol
+        updateUltimateLabel(R.id.item_pocket_clearance, R.string.feature_pocket_clearance);
+                                ^
+  symbol:   variable item_pocket_clearance
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:605: error: cannot find symbol
+        updateUltimateLabel(R.id.item_cue_landing, R.string.feature_cue_landing);
+                                ^
+  symbol:   variable item_cue_landing
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:606: error: cannot find symbol
+        updateUltimateLabel(R.id.item_power_guide, R.string.feature_power_guide);
+                                ^
+  symbol:   variable item_power_guide
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:607: error: cannot find symbol
+        updateUltimateLabel(R.id.item_dead_end, R.string.feature_dead_end);
+                                ^
+  symbol:   variable item_dead_end
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:608: error: cannot find symbol
+        updateUltimateLabel(R.id.item_break_predictor, R.string.feature_break_predictor);
+                                ^
+  symbol:   variable item_break_predictor
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:609: error: cannot find symbol
+        updateUltimateLabel(R.id.item_opponent_tracer, R.string.feature_opponent_tracer);
+                                ^
+  symbol:   variable item_opponent_tracer
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:613: error: cannot find symbol
+        updateUltimateLabel(R.id.item_human_delay, R.string.feature_human_emulator);
+                                ^
+  symbol:   variable item_human_delay
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:659: error: cannot find symbol
+        TextView tv = container.findViewById(R.id.item_title);
+                                                 ^
+  symbol:   variable item_title
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:661: error: cannot find symbol
+        SwitchCompat sw = container.findViewById(R.id.item_switch);
+                                                     ^
+  symbol:   variable item_switch
+  location: class id
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:81: warning: [deprecation] 
+startActivityForResult(Intent,int) in Fragment has been deprecated
+            startActivityForResult(intent, OVERLAY_PERMISSION_CODE);
+            ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:88: warning: [deprecation] 
+onActivityResult(int,int,Intent) in Fragment has been deprecated
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+                ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:89: warning: [deprecation] 
+onActivityResult(int,int,Intent) in Fragment has been deprecated
+        super.onActivityResult(requestCode, resultCode, data);
+             ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\NeonTouchListener.java:18: warning: [deprecation] VIBRATOR_SERVICE in 
+Context has been deprecated
+        vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+                                                              ^
+D:\LUXPRO\app\src\main\java\com\luxpro\vip\NeonTouchListener.java:64: warning: [deprecation] vibrate(long) in Vibrator 
+has been deprecated
+                vibrator.vibrate(30);
+                        ^
+20 errors
+12 warnings
+
+> Task :app:compileDebugJavaWithJavac FAILED
+
+[Incubating] Problems report is available at: file:///D:/LUXPRO/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\BaseActivity.java:133: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+              overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+              ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\ActivationActivity.java:128: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+                                  overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+                                  ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\ActivationActivity.java:173: warning: [deprecation] 
+overridePendingTransition(int,int) in Activity has been deprecated
+                  overridePendingTransition(R.anim.slide_in_glitch, R.anim.slide_out_glitch);
+                  ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\auth\BridgeWebViewActivity.java:83: warning: [deprecation] 
+onBackPressed() in ComponentActivity has been deprecated
+      public void onBackPressed() {
+                  ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\auth\BridgeWebViewActivity.java:87: warning: [deprecation] 
+onBackPressed() in ComponentActivity has been deprecated
+              super.onBackPressed();
+                   ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:201: warning: [deprecation] TYPE_PHONE in 
+LayoutParams has been deprecated
+                              : WindowManager.LayoutParams.TYPE_PHONE,
+                                                          ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:267: warning: [deprecation] TYPE_PHONE in 
+LayoutParams has been deprecated
+                          : WindowManager.LayoutParams.TYPE_PHONE,
+                                                      ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:356: error: cannot find symbol
+          if (btnLang != null) btnLang.setOnClickListener(v -> toggleLanguage());
+                                                               ^
+    symbol:   method toggleLanguage()
+    location: class FloatingMenuService
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:366: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_pocket_clearance, R.string.feature_pocket_clearance, 
+NativeEngine.getInstance()::togglePocketClearance);
+                                 ^
+    symbol:   variable item_pocket_clearance
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:367: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_cue_landing, R.string.feature_cue_landing, 
+NativeEngine.getInstance()::toggleCueLanding);
+                                 ^
+    symbol:   variable item_cue_landing
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:368: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_power_guide, R.string.feature_power_guide, 
+NativeEngine.getInstance()::togglePowerGuide);
+                                 ^
+    symbol:   variable item_power_guide
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:369: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_dead_end, R.string.feature_dead_end, 
+NativeEngine.getInstance()::toggleDeadEndAlert);
+                                 ^
+    symbol:   variable item_dead_end
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:372: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_break_predictor, R.string.feature_break_predictor, (checked) -> {
+                                 ^
+    symbol:   variable item_break_predictor
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:375: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_opponent_tracer, R.string.feature_opponent_tracer, 
+NativeEngine.getInstance()::toggleOpponentTracer);
+                                 ^
+    symbol:   variable item_opponent_tracer
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:391: error: cannot find symbol
+          bindUltimateSwitch(R.id.item_human_delay, R.string.feature_human_emulator, 
+NativeEngine.getInstance()::toggleHumanizeDelay);
+                                 ^
+    symbol:   variable item_human_delay
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:589: error: cannot find symbol
+          TextView tvTraj = modMenuView.findViewById(R.id.tv_sec_trajectories);
+                                                         ^
+    symbol:   variable tv_sec_trajectories
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:592: error: cannot find symbol
+          TextView tvRadar = modMenuView.findViewById(R.id.tv_sec_radar);
+                                                          ^
+    symbol:   variable tv_sec_radar
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:595: error: cannot find symbol
+          TextView tvShield = modMenuView.findViewById(R.id.tv_sec_protection);
+                                                           ^
+    symbol:   variable tv_sec_protection
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:604: error: cannot find symbol
+          updateUltimateLabel(R.id.item_pocket_clearance, R.string.feature_pocket_clearance);
+                                  ^
+    symbol:   variable item_pocket_clearance
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:605: error: cannot find symbol
+          updateUltimateLabel(R.id.item_cue_landing, R.string.feature_cue_landing);
+                                  ^
+    symbol:   variable item_cue_landing
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:606: error: cannot find symbol
+          updateUltimateLabel(R.id.item_power_guide, R.string.feature_power_guide);
+                                  ^
+    symbol:   variable item_power_guide
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:607: error: cannot find symbol
+          updateUltimateLabel(R.id.item_dead_end, R.string.feature_dead_end);
+                                  ^
+    symbol:   variable item_dead_end
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:608: error: cannot find symbol
+          updateUltimateLabel(R.id.item_break_predictor, R.string.feature_break_predictor);
+                                  ^
+    symbol:   variable item_break_predictor
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:609: error: cannot find symbol
+          updateUltimateLabel(R.id.item_opponent_tracer, R.string.feature_opponent_tracer);
+                                  ^
+    symbol:   variable item_opponent_tracer
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:613: error: cannot find symbol
+          updateUltimateLabel(R.id.item_human_delay, R.string.feature_human_emulator);
+                                  ^
+    symbol:   variable item_human_delay
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:659: error: cannot find symbol
+          TextView tv = container.findViewById(R.id.item_title);
+                                                   ^
+    symbol:   variable item_title
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\FloatingMenuService.java:661: error: cannot find symbol
+          SwitchCompat sw = container.findViewById(R.id.item_switch);
+                                                       ^
+    symbol:   variable item_switch
+    location: class id
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:81: warning: [deprecation] 
+startActivityForResult(Intent,int) in Fragment has been deprecated
+              startActivityForResult(intent, OVERLAY_PERMISSION_CODE);
+              ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:88: warning: [deprecation] 
+onActivityResult(int,int,Intent) in Fragment has been deprecated
+      public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+                  ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\HomeFragment.java:89: warning: [deprecation] 
+onActivityResult(int,int,Intent) in Fragment has been deprecated
+          super.onActivityResult(requestCode, resultCode, data);
+               ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\NeonTouchListener.java:18: warning: [deprecation] VIBRATOR_SERVICE in 
+Context has been deprecated
+          vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+                                                                ^
+  D:\LUXPRO\app\src\main\java\com\luxpro\vip\NeonTouchListener.java:64: warning: [deprecation] vibrate(long) in 
+Vibrator has been deprecated
+                  vibrator.vibrate(30);
+                          ^
+  20 errors
+  12 warnings
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 17s
+40 actionable tasks: 14 executed, 26 up-to-date

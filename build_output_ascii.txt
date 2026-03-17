@@ -1,0 +1,531 @@
+
+> Configure project :app
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+
+> Task :app:buildCMakeDebug[armeabi-v7a]
+C/C++: ninja: Entering directory `D:\LUXPRO\app\.cxx\Debug\5h181z53\armeabi-v7a'
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o -MF dobby\CMakeFiles\dobby.dir\source\core\assembler\assembler-arm.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/core/assembler/assembler-arm.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/core/assembler/assembler-arm.cc:4:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: 1 error generated.
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o -MF dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\Trampoline\trampoline_arm.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:7:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:10:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:92:14: error: no member named 'Emit16' in 'CodeMemBuffer'; did you mean 'Emit'?
+C/C++:    92 |     buffer_->Emit16(val);
+C/C++:       |              ^~~~~~
+C/C++:       |              Emit
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/MemoryAllocator/CodeMemBuffer.h:90:30: note: 'Emit' declared here
+C/C++:    90 |   template <typename T> void Emit(T value) {
+C/C++:       |                              ^
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:10:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:259:65: error: use of undeclared identifier 'GetRealizedAddress'
+C/C++:   259 |     addr32_t pc = this->code_buffer()->buffer_size + (uintptr_t)GetRealizedAddress();
+C/C++:       |                                                                 ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:12:10: fatal error: 'InterceptRouting/RoutingPlugin/RoutingPlugin.h' file not found
+C/C++:    12 | #include "InterceptRouting/RoutingPlugin/RoutingPlugin.h"
+C/C++:       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: 4 errors generated.
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o -MF dobby\CMakeFiles\dobby.dir\source\core\codegen\codegen-arm.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/core/codegen/codegen-arm.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/core/codegen/codegen-arm.cc:4:
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/./source/core/codegen/codegen-arm.h:6:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: 1 error generated.
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o -MF dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\ClosureTrampolineBridge\arm\closure_bridge_arm.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc:6:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: 1 error generated.
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o -MF dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\ClosureTrampolineBridge\arm\ClosureTrampolineARM.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:6:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:13:1: error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+C/C++:    13 | ClosureTrampolineEntry *ClosureTrampoline::CreateClosureTrampoline(void *carry_data, void *carry_handler) {
+C/C++:       | ^~~~~~~~~~~~~~~~~~~~~~
+C/C++:       | ClosureTrampoline
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 'ClosureTrampoline' declared here
+C/C++:     7 | struct ClosureTrampoline : Trampoline {
+C/C++:       |        ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:13:44: error: out-of-line definition of 'CreateClosureTrampoline' does not match any declaration in 'ClosureTrampoline'
+C/C++:    13 | ClosureTrampolineEntry *ClosureTrampoline::CreateClosureTrampoline(void *carry_data, void *carry_handler) {
+C/C++:       |                                            ^~~~~~~~~~~~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:14:3: error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+C/C++:    14 |   ClosureTrampolineEntry *tramp_entry = nullptr;
+C/C++:       |   ^~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |   ClosureTrampoline
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 'ClosureTrampoline' declared here
+C/C++:     7 | struct ClosureTrampoline : Trampoline {
+C/C++:       |        ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:15:21: error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+C/C++:    15 |   tramp_entry = new ClosureTrampolineEntry;
+C/C++:       |                     ^~~~~~~~~~~~~~~~~~~~~~
+C/C++:       |                     ClosureTrampoline
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 'ClosureTrampoline' declared here
+C/C++:     7 | struct ClosureTrampoline : Trampoline {
+C/C++:       |        ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:15:21: error: no matching constructor for initialization of 'ClosureTrampoline'
+C/C++:    15 |   tramp_entry = new ClosureTrampolineEntry;
+C/C++:       |                     ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+C/C++:     7 | struct ClosureTrampoline : Trampoline {
+C/C++:       |        ^~~~~~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: candidate constructor (the implicit move constructor) not viable: requires 1 argument, but 0 were provided
+C/C++:     7 | struct ClosureTrampoline : Trampoline {
+C/C++:       |        ^~~~~~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:11:3: note: candidate constructor not viable: requires 4 arguments, but 0 were provided
+C/C++:    11 |   ClosureTrampoline(int type, CodeMemBlock buffer, void *carry_data, void *carry_handler) : Trampoline(type, buffer) {
+C/C++:       |   ^                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:34:38: error: use of undeclared identifier 'get_closure_bridge_addr'
+C/C++:    34 |   _ EmitAddress((uint32_t)(uintptr_t)get_closure_bridge_addr());
+C/C++:       |                                      ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:37:16: error: no member named 'address' in 'ClosureTrampoline'
+C/C++:    37 |   tramp_entry->address = (void *)tramp_code.addr();
+C/C++:       |   ~~~~~~~~~~~  ^
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:38:16: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+C/C++:    38 |   tramp_entry->size = tramp_code.size;
+C/C++:       |   ~~~~~~~~~~~~~^~~~
+C/C++:       |                    ()
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:38:21: error: expression is not assignable
+C/C++:    38 |   tramp_entry->size = tramp_code.size;
+C/C++:       |   ~~~~~~~~~~~~~~~~~ ^
+C/C++: 10 errors generated.
+C/C++: C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM -D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. -ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui -ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. -ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source -ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external -ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin -ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti -fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o -MF dobby\CMakeFiles\dobby.dir\source\InstructionRelocation\arm\InstructionRelocationARM.cc.o.d -o dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o -c D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:5:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for initialization of 'AssemblerBase'
+C/C++:   196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+C/C++:       |                                                  ^             ~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st argument
+C/C++:    15 | struct AssemblerBase {
+C/C++:       |        ^~~~~~~~~~~~~
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+C/C++:    20 |   explicit AssemblerBase(addr_t fixed_addr) {
+C/C++:       |            ^             ~~~~~~~~~~~~~~~~~
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:92:14: error: no member named 'Emit16' in 'CodeMemBuffer'; did you mean 'Emit'?
+C/C++:    92 |     buffer_->Emit16(val);
+C/C++:       |              ^~~~~~
+C/C++:       |              Emit
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/MemoryAllocator/CodeMemBuffer.h:90:30: note: 'Emit' declared here
+C/C++:    90 |   template <typename T> void Emit(T value) {
+C/C++:       |                              ^
+C/C++: In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+C/C++: D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:259:65: error: use of undeclared identifier 'GetRealizedAddress'
+C/C++:   259 |     addr32_t pc = this->code_buffer()->buffer_size + (uintptr_t)GetRealizedAddress();
+C/C++:       |                                                                 ^
+C/C++: 3 errors generated.
+
+> Task :app:buildCMakeDebug[armeabi-v7a] FAILED
+./gradlew : 
+At line:1 char:53
++ ... es\Java\jdk-17.0.18"; ./gradlew assembleDebug > build_output.txt 2>&1
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:buildCMakeDebug[armeabi-v7a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory 
+`D:\LUXPRO\app\.cxx\Debug\5h181z53\armeabi-v7a'
+  [1/27] Building CXX object dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\core\assembler\assembler-arm.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/core/assembler/assembler-arm.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/core/assembler/assembler-arm.cc
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/core/assembler/assembler-arm.cc:4:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  1 error generated.
+  [2/27] Building CXX object dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\Trampoline\trampoline_arm.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/Trampoline/trampoline_arm.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:7:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:10:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:92:14: error: no 
+member named 'Emit16' in 'CodeMemBuffer'; did you mean 'Emit'?
+     92 |     buffer_->Emit16(val);
+        |              ^~~~~~
+        |              Emit
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/MemoryAllocator/CodeMemBuffer.h:90:30: note: 'Emit' declared here
+     90 |   template <typename T> void Emit(T value) {
+        |                              ^
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:10:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:259:65: error: use of 
+undeclared identifier 'GetRealizedAddress'
+    259 |     addr32_t pc = this->code_buffer()->buffer_size + (uintptr_t)GetRealizedAddress();
+        |                                                                 ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/Trampoline/trampoline_arm.cc:12:10: fatal error: 
+'InterceptRouting/RoutingPlugin/RoutingPlugin.h' file not found
+     12 | #include "InterceptRouting/RoutingPlugin/RoutingPlugin.h"
+        |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  4 errors generated.
+  [3/27] Building CXX object dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\core\codegen\codegen-arm.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/core/codegen/codegen-arm.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/core/codegen/codegen-arm.cc
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/source/core/codegen/codegen-arm.cc:4:
+  In file included from D:/LUXPRO/app/src/main/cpp/dobby/./source/core/codegen/codegen-arm.h:6:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  1 error generated.
+  [4/27] Building CXX object 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\ClosureTrampolineBridge\arm\closure_bridge_arm.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure_bridge_arm.cc:6:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  1 error generated.
+  [5/27] Building CXX object 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\TrampolineBridge\ClosureTrampolineBridge\arm\ClosureTrampolineARM.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:6:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:13:1: 
+error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+     13 | ClosureTrampolineEntry *ClosureTrampoline::CreateClosureTrampoline(void *carry_data, void *carry_handler) {
+        | ^~~~~~~~~~~~~~~~~~~~~~
+        | ClosureTrampoline
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 
+'ClosureTrampoline' declared here
+      7 | struct ClosureTrampoline : Trampoline {
+        |        ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:13:44: 
+error: out-of-line definition of 'CreateClosureTrampoline' does not match any declaration in 'ClosureTrampoline'
+     13 | ClosureTrampolineEntry *ClosureTrampoline::CreateClosureTrampoline(void *carry_data, void *carry_handler) {
+        |                                            ^~~~~~~~~~~~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:14:3: 
+error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+     14 |   ClosureTrampolineEntry *tramp_entry = nullptr;
+        |   ^~~~~~~~~~~~~~~~~~~~~~
+        |   ClosureTrampoline
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 
+'ClosureTrampoline' declared here
+      7 | struct ClosureTrampoline : Trampoline {
+        |        ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:15:21: 
+error: unknown type name 'ClosureTrampolineEntry'; did you mean 'ClosureTrampoline'?
+     15 |   tramp_entry = new ClosureTrampolineEntry;
+        |                     ^~~~~~~~~~~~~~~~~~~~~~
+        |                     ClosureTrampoline
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 
+'ClosureTrampoline' declared here
+      7 | struct ClosureTrampoline : Trampoline {
+        |        ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:15:21: 
+error: no matching constructor for initialization of 'ClosureTrampoline'
+     15 |   tramp_entry = new ClosureTrampolineEntry;
+        |                     ^
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 
+candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided
+      7 | struct ClosureTrampoline : Trampoline {
+        |        ^~~~~~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:7:8: note: 
+candidate constructor (the implicit move constructor) not viable: requires 1 argument, but 0 were provided
+      7 | struct ClosureTrampoline : Trampoline {
+        |        ^~~~~~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/TrampolineBridge/ClosureTrampolineBridge/ClosureTrampoline.h:11:3: note: 
+candidate constructor not viable: requires 4 arguments, but 0 were provided
+     11 |   ClosureTrampoline(int type, CodeMemBlock buffer, void *carry_data, void *carry_handler) : Trampoline(type, 
+buffer) {
+        |   ^                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:34:38: 
+error: use of undeclared identifier 'get_closure_bridge_addr'
+     34 |   _ EmitAddress((uint32_t)(uintptr_t)get_closure_bridge_addr());
+        |                                      ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:37:16: 
+error: no member named 'address' in 'ClosureTrampoline'
+8 actionable tasks: 5 executed, 3 up-to-date
+     37 |   tramp_entry->address = (void *)tramp_code.addr();
+        |   ~~~~~~~~~~~  ^
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:38:16: 
+error: reference to non-static member function must be called; did you mean to call it with no arguments?
+     38 |   tramp_entry->size = tramp_code.size;
+        |   ~~~~~~~~~~~~~^~~~
+        |                    ()
+  D:/LUXPRO/app/src/main/cpp/dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ClosureTrampolineARM.cc:38:21: 
+error: expression is not assignable
+     38 |   tramp_entry->size = tramp_code.size;
+        |   ~~~~~~~~~~~~~~~~~ ^
+  10 errors generated.
+  [6/27] Building CXX object dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o
+  FAILED: dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o 
+  C:\Users\NMS-PC\AppData\Local\Android\Sdk\ndk\27.0.12077973\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+--target=armv7-none-linux-androideabi24 
+--sysroot=C:/Users/NMS-PC/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot 
+-DBUILD_WITH_TRAMPOLINE_ASM -DCOMPILE_DEFINITIONS  -DDOBBY_DEBUG -DBUILD_WITH_TRAMPOLINE_ASM 
+-D__DOBBY_BUILD_VERSION__=\"Dobby-20260315\" -Ddobby_EXPORTS -ID:/LUXPRO/app/src/main/cpp/. 
+-ID:/LUXPRO/app/src/main/cpp/KittyMemory -ID:/LUXPRO/app/src/main/cpp/dobby/include -ID:/LUXPRO/app/src/main/cpp/imgui 
+-ID:/LUXPRO/app/src/main/cpp/imgui/backends -ID:/LUXPRO/app/src/main/cpp/dobby/. 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./include -ID:/LUXPRO/app/src/main/cpp/dobby/./source 
+-ID:/LUXPRO/app/src/main/cpp/dobby/source/dobby -ID:/LUXPRO/app/src/main/cpp/dobby/./external 
+-ID:/LUXPRO/app/src/main/cpp/dobby/./external/logging -ID:/LUXPRO/app/src/main/cpp/dobby/./builtin-plugin 
+-ID:/LUXPRO/app/src/main/cpp/dobby/builtin-plugin/SymbolResolver -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security  -fvisibility=hidden -fPIC -fno-stack-check -fno-stack-protector -fno-exceptions -fno-rtti 
+-fno-common -fno-zero-initialized-in-bss -fomit-frame-pointer -g -DANDROID -fdata-sections -ffunction-sections 
+-funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat 
+-Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -MD -MT 
+dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o -MF 
+dobby\CMakeFiles\dobby.dir\source\InstructionRelocation\arm\InstructionRelocationARM.cc.o.d -o 
+dobby/CMakeFiles/dobby.dir/source/InstructionRelocation/arm/InstructionRelocationARM.cc.o -c 
+D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:5:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler-arm.h:196:50: error: no matching constructor for 
+initialization of 'AssemblerBase'
+    196 |   Assembler(void *address, CodeBuffer *buffer) : AssemblerBase(address) {
+        |                                                  ^             ~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:15:8: note: candidate constructor (the implicit 
+copy constructor) not viable: cannot convert argument of incomplete type 'void *' to 'const AssemblerBase' for 1st 
+argument
+     15 | struct AssemblerBase {
+        |        ^~~~~~~~~~~~~
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/core/assembler/assembler.h:20:12: note: candidate constructor not viable: 
+cannot convert argument of incomplete type 'void *' to 'addr_t' (aka 'unsigned int') for 1st argument
+     20 |   explicit AssemblerBase(addr_t fixed_addr) {
+        |            ^             ~~~~~~~~~~~~~~~~~
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:92:14: error: no 
+member named 'Emit16' in 'CodeMemBuffer'; did you mean 'Emit'?
+     92 |     buffer_->Emit16(val);
+        |              ^~~~~~
+        |              Emit
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/MemoryAllocator/CodeMemBuffer.h:90:30: note: 'Emit' declared here
+     90 |   template <typename T> void Emit(T value) {
+        |                              ^
+  In file included from 
+D:/LUXPRO/app/src/main/cpp/dobby/source/InstructionRelocation/arm/InstructionRelocationARM.cc:7:
+  D:/LUXPRO/app/src/main/cpp/dobby/./source/InstructionRelocation/arm/InstructionRelocationARM.h:259:65: error: use of 
+undeclared identifier 'GetRealizedAddress'
+    259 |     addr32_t pc = this->code_buffer()->buffer_size + (uintptr_t)GetRealizedAddress();
+        |                                                                 ^
+  3 errors generated.
+  ninja: build stopped: subcommand failed.
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\NMS-PC\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "D:\\LUXPRO\\app\\.cxx\\Debug\\5h181z53\\armeabi-v7a" ^
+        dobby ^
+        luxpro_native
+    from D:\LUXPRO\app
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 8s

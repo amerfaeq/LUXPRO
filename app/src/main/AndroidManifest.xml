@@ -25,9 +25,10 @@
     <application
         android:name=".LuxProApp"
         android:hardwareAccelerated="true"
+        android:extractNativeLibs="true"
         android:allowBackup="false"
         android:icon="@mipmap/ic_lux_master"
-        android:label="LUX PRO"
+        android:label="LUX PRO MAX"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="33">
@@ -58,11 +59,12 @@
         <activity android:name=".RegisterActivity" android:exported="false" android:screenOrientation="portrait" />
         <activity android:name=".ActivationActivity" android:exported="false" android:screenOrientation="portrait" />
         <activity android:name=".MainActivityDashboard" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:exported="false" android:screenOrientation="portrait" />
         <activity android:name=".ResellerActivity" android:exported="false" android:screenOrientation="portrait" />
         <activity android:name=".auth.BridgeWebViewActivity" android:exported="false" android:screenOrientation="portrait" android:theme="@style/Theme.LUX_BRIDGE_DIALOG" />
 
         <service
-            android:name=".FloatingMenuService"
+            android:name=".Launcher"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="specialUse">

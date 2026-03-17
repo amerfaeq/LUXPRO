@@ -1,0 +1,6 @@
+{
+  "protocol": "anti_ban_v2",
+  "status": "active",
+  "encryption": "AES-256-GCM",
+  "stealth_mode": true
+}

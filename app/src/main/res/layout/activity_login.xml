@@ -6,7 +6,7 @@
     android:background="@drawable/bg_nebula_alien">
 
     <!-- Active Data Matrix Stream (Layer 1 Background) -->
-    <com.luxpro.vip.ActiveDataStreamView
+    <com.luxpro.max.ActiveDataStreamView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

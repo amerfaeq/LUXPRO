@@ -1,432 +1,448 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App -->
-    <string name="app_name">LUX PRO</string>
+    <string name="app_name">LUX PRO MAX</string>
 
     <!-- Login & Register -->
-    <string name="login_title">بوابة تفويض الدخول</string>
-    <string name="email_hint">أدخل بصمة البريد الإلكتروني...</string>
-    <string name="password_hint">أدخل شفرة المرور...</string>
-    <string name="remember_me">حفظ بيانات الاتصال</string>
-    <string name="forgot_password">نسيت الشفرة؟</string>
-    <string name="login_btn">بدء الاتصال بالخادم</string>
-    <string name="create_account_btn">إنشاء هوية جديدة</string>
-    <string name="buy_key_btn">الحصول على تصريح وصول</string>
-    <string name="contact_dev_btn">قناة الاتصال بالمطور</string>
+    <string name="login_title">LOGIN AUTHORIZATION</string>
+    <string name="email_hint">ENTER EMAIL UPLINK...</string>
+    <string name="password_hint">ENTER DECRYPTION KEY...</string>
+    <string name="remember_me">RETENTION PROTOCOL</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="login_btn">INITIATE SERVER UPLINK</string>
+    <string name="create_account_btn">GENERATE NEW IDENTITY</string>
+    <string name="buy_key_btn">ACQUIRE ACCESS PERMIT</string>
+    <string name="contact_dev_btn">SECURE COMMS TO AUTHOR</string>
 
-    <string name="register_title">توليد هوية مستخدم</string>
-    <string name="confirm_password_hint">تأكيد شفرة المرور...</string>
-    <string name="register_btn">بدء التفعيل</string>
-    <string name="back_to_login">العودة لبوابة الدخول</string>
+    <string name="register_title">IDENTITY GENERATION</string>
+    <string name="confirm_password_hint">CONFIRM DECRYPTION KEY...</string>
+    <string name="register_btn">INITIATE GENERATION</string>
+    <string name="back_to_login">RETURN TO GATEWAY</string>
 
     <!-- Main / Dashboard -->
     <string name="dashboard_title">LUX PRO TERMINAL</string>
     <string name="language_toggle">🌐 EN | ع</string>
 
-    <string name="tab_home">المركز</string>
-    <string name="tab_rewards">المكافآت</string>
-    <string name="tab_admin">لوحة التحكم</string>
-    <string name="tab_settings">المحرك</string>
+    <string name="tab_home">NEXUS</string>
+    <string name="tab_rewards">METRICS</string>
+    <string name="tab_admin">OVERSEER</string>
+    <string name="tab_settings">ENGINE</string>
 
     <!-- Home Fragment -->
-    <string name="home_news_title">🌐 الإرساليات العالمية</string>
-    <string name="home_news_default">جاري الاتصال بالخوادم الأساسية...</string>
+    <string name="home_news_title">🌐 GLOBAL TRANSMISSIONS</string>
+    <string name="home_news_default">ESTABLISHING SECURE UPLINK TO CORE SERVERS...</string>
 
     <!-- Rewards Fragment -->
-    <string name="rewards_time_label">الوقت المتبقي للمكافأة القادمة</string>
-    <string name="rewards_reveal_btn">✨ استلام مفتاح المكافأة</string>
-    <string name="rewards_details_title">🔑 بيانات مفتاح الوصول</string>
+    <string name="rewards_time_label">TIME UNTIL NEXT DEPLOYMENT</string>
+    <string name="rewards_reveal_btn">✨ CLAIM REWARD KEY</string>
+    <string name="rewards_details_title">🔑 ACCESS KEY CREDENTIALS</string>
 
     <!-- Admin Panel -->
-    <string name="admin_title">🛡 لوحة المشرف</string>
-    <string name="admin_keygen_gen_btn">تهيئة تصاريح جديدة</string>
-    <string name="admin_copy_btn">نسخ للحافظة</string>
+    <string name="admin_title">🛡 OVERSEER PANEL</string>
+    <string name="admin_keygen_gen_btn">INITIALIZE SYNTHESIS</string>
+    <string name="admin_copy_btn">EXTRACT TO CLIPBOARD</string>
 
     <!-- Settings Fragment -->
-    <string name="settings_title">⚙ إعدادات النظام</string>
-    <string name="settings_lang_btn">تغيير لغة النظام</string>
-    <string name="settings_profile_title">معلومات الهوية</string>
-    <string name="settings_overlay_title">تكوين الواجهة العائمة</string>
-    <string name="settings_overlay_size">مقياس الواجهة</string>
-    <string name="settings_overlay_opacity">مستوى الشفافية</string>
-    <string name="settings_buy_btn">الحصول على دورة تمديد</string>
-    <string name="settings_privacy_btn">قراءة بروتوكولات البيانات</string>
-    <string name="settings_logout_btn">إنهاء الاتصال (خروج)</string>
+    <string name="settings_title">⚙ SYSTEM CONFIGURATION</string>
+    <string name="settings_lang_btn">TOGGLE SYSTEM LANGUAGE</string>
+    <string name="settings_profile_title">USER IDENTITY PROFILES</string>
+    <string name="settings_overlay_title">OVERLAY MODULE CONFIGURATION</string>
+    <string name="settings_overlay_size">OVERLAY SCALE MODIFIER</string>
+    <string name="settings_overlay_opacity">OVERLAY OPACITY LEVEL</string>
+    <string name="settings_buy_btn">ACQUIRE NEW EXTENSION CYCLE</string>
+    <string name="settings_privacy_btn">READ DATA PROTOCOLS</string>
+    <string name="settings_logout_btn">TERMINATE UPLINK (LOGOUT)</string>
 
     <!-- Resellers & Splash & Activation -->
-    <string name="resellers_title">قائمة المزودين المعتمدين</string>
-    <string name="splash_boot">جاري تهيئة خوارزميات الفضاء...</string>
+    <string name="resellers_title">LUX PRO VENDOR MATRIX</string>
+    <string name="splash_boot">BOOTING ALIEN PROTOCOL... (0%)</string>
     
-    <string name="activation_title">تفعيل الوصول للشبكة</string>
-    <string name="activation_status">حالة الشبكة: غير مصرح</string>
-    <string name="activation_hint">أدخل مفتاح فك التشفير...</string>
-    <string name="activation_btn">بدء التفويض</string>
+    <string name="activation_title">VIP ACCESS ACTIVATION PROTOCOL</string>
+    <string name="activation_status">NETWORK STATUS: UNAUTHORIZED</string>
+    <string name="activation_hint">ENTER DECRYPTION KEY...</string>
+    <string name="activation_btn">INITIATE AUTHORIZATION</string>
+
+    <!-- Section Headers -->
+    <string name="section_trajectories">--- SMART TRAJECTORIES ---</string>
+    <string name="section_radar">--- TACTICAL RADAR ---</string>
+    <string name="section_protection">--- ULTIMATE PROTECTION ---</string>
+
+    <!-- Trajectory Features (Pro) -->
+    <string name="feature_long_trajectory">X-Ray Path (8-Bounces)</string>
+    <string name="feature_ai_prediction">AI Prediction Engine</string>
+    <string name="feature_pocket_focus">Pocket Gravity Focus</string>
+    <string name="feature_ghost_ball">Ghost Ball Shadow</string>
+    <string name="feature_snooker_solver">Snooker Solver AI</string>
+    <string name="feature_pocket_clearance">Pocket Clearance Check</string>
+    <string name="feature_cue_landing">Cue Ball Landing Zone</string>
+    <string name="feature_power_guide">Dynamic Power Guide</string>
+    <string name="feature_dead_end">Dead-End Alert</string>
+
+    <!-- Tactical Radar (Pro) -->
+    <string name="feature_break_predictor">Break Predictor</string>
+    <string name="feature_opponent_tracer">Opponent Path Tracer</string>
+
+    <!-- Security & Stealth (Pro) -->
+    <string name="feature_antiban">LUX Shield (Anti-Ban)</string>
+    <string name="feature_stream_proof">Stream Proof (Invisible)</string>
+    <string name="feature_integrity_check">Environment Integrity</string>
+    <string name="feature_human_emulator">Humanize Delay System</string>
+
+    <!-- Control & Precision (Pro) -->
+    <string name="feature_anti_shake">Zero-Shake Stability</string>
+    <string name="feature_rgb_lines">Neon Pulse (RGB Lines)</string>
+    <string name="feature_magnetic_aim">Smart Priority Target</string>
+
+    <!-- UI Helpers -->
+    <string name="menu_bridge_header">Professional Bridge Status:</string>
+    <string name="menu_activate_bridge">Activate Bridge Now</string>
+    <string name="menu_opacity_label">MENU OPACITY</string>
+    <string name="menu_scale_label">MENU SCALE</string>
+    <string name="menu_speed_label">TIME SCALE</string>
+    <string name="menu_lang_btn">AR/EN</string>
+    <string name="tab_aim">AIM</string>
+    <string name="tab_vfx">VFX</string>
+    <string name="tab_bridge">PROTECT</string>
+    <string name="line_width_label">LINE WIDTH</string>
+    <string name="glow_intensity_label">GLOW INTENSITY</string>
+    <string name="presets_label">PRESETS</string>
+    <string name="preset_ghost_btn">GHOST MODE</string>
+    <string name="preset_dominator_btn">DOMINATOR</string>
+    <string name="preset_stealth_btn">STEALTH</string>
+    <string name="bridge_status_disconnected">BRIDGE: DISCONNECTED</string>
+    <string name="bridge_status_connected">BRIDGE: CONNECTED</string>
+    <string name="btn_reconnect_bridge">RECONNECT TO BRIDGE</string>
+    <string name="game_pid_label">PID: %s</string>
+    <string name="user_serial_label">SERIAL: %s</string>
+    <string name="menu_sim_speed">SIM SPEED</string>
+
+    <!-- Toasts (Pro) -->
+    <string name="toast_aim_enabled">Targeting System: ONLINE</string>
+    <string name="toast_aim_disabled">Targeting System: OFFLINE</string>
+    <string name="toast_protection_active">Shield: UNBREAKABLE</string>
+    <string name="toast_invisible_on">Stealth: CLOAKED</string>
+    <string name="toast_invisible_off">Stealth: VISIBLE</string>
 
     <!-- Mod Menu -->
-    <string name="mod_title">لوحة التجاوزات [MATRIX]</string>
-    <string name="mod_scanner">كاشف الطاولة</string>
-    <string name="mod_f0">المسار اللانهائي</string>
-    <string name="mod_f1">تسلسل تلقائي (فوز)</string>
-    <string name="mod_f2">تسريع الزمن</string>
-    <string name="mod_f3">التخفي (بدون حظر)</string>
-    <string name="mod_f4">تصريح VIP</string>
-    <string name="mod_f5">مضاعفة الجيوب</string>
-    <string name="mod_f6">الجلاد الآلي (AI)</string>
-    <string name="mod_close">إنهاء التجاوز</string>
+    <string name="mod_title">SYSTEM OVERRIDE MATRIX</string>
+    <string name="mod_f0">INFINITE VECTOR</string>
+    <string name="mod_f1">AUTO SEQUENCE</string>
+    <string name="mod_f2">VELOCITY HACK</string>
+    <string name="mod_f3">STEALTH PROTOCOL</string>
+    <string name="mod_f4">VIP ACCESS</string>
+    <string name="mod_f5">POCKET MULTIPLIER</string>
+    <string name="mod_f6">AI EXECUTION</string>
+    <string name="mod_close">TERMINATE MATRIX</string>
     
     <!-- New Menu Categories & Features -->
-    <string name="menu_tab_security">درع الحماية</string>
-    <string name="menu_tab_visuals">الرادار والبصريات</string>
-    <string name="menu_tab_ai">الذكاء والآلي</string>
-    <string name="menu_tab_extra">إضافات ملكية</string>
+    <string name="menu_tab_security">Security Zone</string>
+    <string name="menu_tab_visuals">Visuals Center</string>
+    <string name="menu_tab_ai">AI &amp; Auto Hub</string>
+    <string name="menu_tab_extra">Premium Extra</string>
 
-    <string name="feature_secure_bridge">الجسر المحمي (Secure Bridge)</string>
-    <string name="feature_ghost_mode">وضع الشبح (Ghost Mode)</string>
-    <string name="feature_clear_traces">مسح آثار الاتصال</string>
+    <string name="feature_secure_bridge">Secure Bridge (Tunnel)</string>
+    <string name="feature_ghost_mode">Ghost Mode (Stealth)</string>
+    <string name="feature_clear_traces">Erase Connection Traces</string>
 
-    <string name="feature_infinite_path">المسار اللانهائي (Predictor)</string>
-    <string name="feature_break_detector">كاشف الكسرة (Break Detector)</string>
-    <string name="feature_path_customization">تخصيص ألوان المسارات</string>
+    <string name="feature_infinite_path">Infinite Path (Predictor)</string>
+    <string name="feature_break_detector">Break Detector (Oracle)</string>
+    <string name="feature_path_customization">Path Color Customization</string>
 
-    <string name="feature_auto_killer">الجلاد الآلي (Auto Play)</string>
-    <string name="feature_win_sequence">التسلسل التلقائي للفوز</string>
-    <string name="feature_table_calibrate">معايرة الطاولة (Calibration)</string>
+    <string name="feature_auto_killer">Auto Killer (Auto Play)</string>
+    <string name="feature_win_sequence">Win Sequence (Auto Flow)</string>
+    <string name="feature_table_calibrate">Table Calibration (Sovereign)</string>
 
-    <string name="feature_time_speed">تسريع الزمن (Time Jump)</string>
-    <string name="feature_vip_pass">تصريح VIP الملكي</string>
-    <string name="feature_pocket_multiplier">مضاعفة الجيوب (Pockets)</string>
-    
-    <string name="scanner_overlay">جاري تحليل هندسة الطاولة...</string>
+    <string name="feature_time_speed">Time Speed (Speed Hack)</string>
+    <string name="feature_vip_pass">Royal VIP Pass</string>
+    <string name="feature_pocket_multiplier">Pocket Multiplier (Pockets)</string>
+
+    <string name="scanner_overlay">ANALYZING TABLE GEOMETRY...</string>
 
     <!-- Missing Strings -->
-    <string name="engine_ready">المحرك جاهز ✅</string>
-    <string name="gift_email">الحساب:</string>
-    <string name="gift_pass">الرمز:</string>
-    <string name="gift_credit">الرصيد:</string>
-    
-    <string name="hwid_copied">تم نسخ الهوية بنجاح</string>
-    <string name="email_label">الحساب: </string>
-    <string name="subscription_label">الاشتراك الفعال: </string>
-    <string name="days_left">أيام</string>
-    <string name="hours_short">س</string>
-    <string name="subscription_expired">صلاحية الوصول منتهية!</string>
-    <string name="privacy_policy">سياسة البيانات</string>
-    <string name="privacy_msg">نجمع معرف الجهاز للتحقق من التراخيص فقط.</string>
+    <string name="engine_ready">ENGINE READY ✅</string>
+    <string name="gift_email">ACCOUNT:</string>
+    <string name="gift_pass">PASS KEY:</string>
+    <string name="gift_credit">CREDIT:</string>
+
+    <string name="hwid_copied">IDENTITY COPIED SUCCESSFULLY</string>
+    <string name="email_label">ACCOUNT: </string>
+    <string name="subscription_label">ACTIVE SUBSCRIPTION: </string>
+    <string name="days_left">DAYS</string>
+    <string name="hours_short">H</string>
+    <string name="subscription_expired">ACCESS AUTHORIZATION EXPIRED!</string>
+    <string name="privacy_policy">DATA PROTOCOLS</string>
+    <string name="privacy_msg">WE COLLECT HARDWARE ID FOR LICENSE VERIFICATION ONLY.</string>
 
     <!-- Admin Full Translations -->
-    <string name="admin_keygen_gen_title">🔑 مُولّد مفاتيح التشفير</string>
-    <string name="admin_keygen_days">صلاحية المفتاح (بالأيام):</string>
-    <string name="admin_keygen_days_hint">مثال: 30</string>
-    <string name="admin_keygen_count">العدد المطلوب توليده:</string>
-    <string name="admin_keygen_count_hint">مثال: 5</string>
+    <string name="admin_keygen_gen_title">🔑 CRYPTOGRAPHIC KEY GENERATOR</string>
+    <string name="admin_keygen_days">KEY VALIDITY DURATION (DAYS):</string>
+    <string name="admin_keygen_days_hint">E.G: 30</string>
+    <string name="admin_keygen_count">BATCH GENERATION COUNT:</string>
+    <string name="admin_keygen_count_hint">E.G: 5</string>
     
-    <string name="admin_reward_title">🎁 إدارة بروتوكول المكافآت</string>
-    <string name="admin_reward_pass">شفرة فك التشفير المستهدفة:</string>
-    <string name="admin_reward_pass_hint">مثال: كلمة المرور</string>
-    <string name="admin_reward_hours">وقت الانتشار القادم (ساعات):</string>
-    <string name="admin_reward_hours_hint">مثال: 24</string>
-    <string name="admin_reward_status">⏳ جاري جلب سجلات الشبكة...</string>
-    <string name="admin_reward_btn">بدء تجاوز الشبكة</string>
+    <string name="admin_reward_title">🎁 REWARD PROTOCOL MANAGEMENT</string>
+    <string name="admin_reward_pass">TARGET DECRYPT PASSWORD:</string>
+    <string name="admin_reward_pass_hint">E.G: Pass@2025</string>
+    <string name="admin_reward_hours">NEXT DEPLOYMENT (HOURS):</string>
+    <string name="admin_reward_hours_hint">E.G: 24</string>
+    <string name="admin_reward_status">⏳ FETCHING NETWORK LOGS...</string>
+    <string name="admin_reward_btn">INITIATE NETWORK OVERRIDE</string>
 
-    <string name="admin_user_title">👤 تعديل بيانات الهوية</string>
-    <string name="admin_user_uid">مُعرّف الهوية المستهدف</string>
-    <string name="admin_user_days">دورات التمديد (أيام)</string>
-    <string name="admin_user_scan">فحص</string>
-    <string name="admin_user_extend">تمديد</string>
-    <string name="admin_user_toggle">تفعيل/إلغاء</string>
+    <string name="admin_user_title">👤 ENTITY DATA MODIFICATION</string>
+    <string name="admin_user_uid">TARGET UID IDENTIFIER</string>
+    <string name="admin_user_days">EXTENSION CYCLES (DAYS)</string>
+    <string name="admin_user_scan">SCAN</string>
+    <string name="admin_user_extend">EXTEND</string>
+    <string name="admin_user_toggle">TOGGLE</string>
 
-    <string name="admin_news_title">📢 بث الإرساليات العالمية</string>
-    <string name="admin_news_hint">أدخل رسالة البث العام هنا...</string>
-    <string name="admin_news_btn">إرسال لجميع العُقد</string>
+    <string name="admin_news_title">📢 GLOBAL TRANSMISSION BROADCAST</string>
+    <string name="admin_news_hint">INPUT BROADCAST MESSAGE...</string>
+    <string name="admin_news_btn">TRANSMIT TO ALL NODES</string>
 
-    <string name="admin_reseller_title">🏪 السجل الإقليمي للموزّعين</string>
-    <string name="admin_reseller_name">اسم / هوية الموزّع</string>
-    <string name="admin_reseller_tg">رابط اتصال التيليغرام</string>
-    <string name="admin_reseller_region">المنطقة / الدولة:</string>
-    <string name="admin_reseller_avatar">رابط الصورة الرمزية</string>
-    <string name="admin_reseller_add">تسجيل الموزّع</string>
-    <string name="admin_reseller_del">إلغاء تنشيط الموزّع</string>
+    <string name="admin_reseller_title">🏪 REGIONAL VENDOR DIRECTORY</string>
+    <string name="admin_reseller_name">VENDOR ALIAS</string>
+    <string name="admin_reseller_tg">TELEGRAM COMM-LINK (@ID)</string>
+    <string name="admin_reseller_region">SECTOR / REGION:</string>
+    <string name="admin_reseller_avatar">AVATAR RESOURCE URL</string>
+    <string name="admin_reseller_add">REGISTER VENDOR</string>
+    <string name="admin_reseller_del">PURGE VENDOR</string>
 
-    <string name="admin_force_update_title">🔄 التجاوز الحرج للنظام (تحديث)</string>
-    <string name="admin_force_update_ver">رقم إصدار البناء الجديد:</string>
-    <string name="admin_force_update_ver_hint">إصدار (مثال: 2)</string>
-    <string name="admin_force_update_url">رابط النشر الثنائي:</string>
-    <string name="admin_force_update_url_hint">رابط تحميل الماتريكس التطبيق</string>
-    <string name="admin_force_update_status">⏳ جاري الاستعلام عن بروتوكولات النشر...</string>
-    <string name="admin_force_update_btn">فرض التحديث العام</string>
+    <string name="admin_force_update_title">🔄 CRITICAL SYSTEM OVERRIDE (UPDATE)</string>
+    <string name="admin_force_update_ver">NEW TARGET BUILD ITERATION:</string>
+    <string name="admin_force_update_ver_hint">ITERATION (E.G: 2)</string>
+    <string name="admin_force_update_url">BINARY DEPLOYMENT URL:</string>
+    <string name="admin_force_update_url_hint">DOWNLOAD MATRIX URL</string>
+    <string name="admin_force_update_status">⏳ QUERYING DEPLOYMENT PROTOCOLS...</string>
+    <string name="admin_force_update_btn">FORCE GLOBAL METRIC UPDATE</string>
     <string name="admin_logout_symbol">⏻</string>
-    <string name="security_time_tamper_title">⚠️ محاولة تلاعب بالوقت</string>
-    <string name="security_time_tamper_msg">لقد تم كشف تلاعب في توقيت الهاتف. هذا يشكل ثغرة أمنية وقد يتم حظرك نهائياً. يرجى ضبط وقت الهاتف على التوقيت التلقائي (الشبكة) والمحاولة مرة أخرى.</string>
-    <string name="security_hwid_lock_title">🚫 تصريح دخول مقيد</string>
-    <string name="security_hwid_lock_msg">هذا المفتاح مفعل بالفعل على جهاز آخر. لا يمكن استخدام الحساب على أكثر من جهاز واحد لحماية أمن الشبكة.</string>
-    <string name="security_session_expired_title">⌛ انتهاء صلاحية الجلسة</string>
-    <string name="security_session_expired_msg">لقد انتهت صلاحية اشتراكك أو تم تسجيل الدخول من مكان آخر. يرجى تجديد الاشتراك للمتابعة.</string>
+    <string name="security_time_tamper_title">⚠️ Time Tampering Detected</string>
+    <string name="security_time_tamper_msg">A discrepancy in system time has been detected. This is a security violation and may result in a permanent ban. Please set your phone time to Automatic (Network Provided) and try again.</string>
+    <string name="security_hwid_lock_title">🚫 Restricted Access</string>
+    <string name="security_hwid_lock_msg">This key is already activated on another device. Accounts are strictly locked to a single HWID for security reasons.</string>
+    <string name="security_session_expired_title">⌛ Session Expired</string>
+    <string name="security_session_expired_msg">Your access session has expired. Please acquire a new key or wait for the next reward deployment.</string>
+    <!-- Login Loading -->
+    <string name="login_loading">AUTHENTICATING UPLINK...</string>
+    <string name="login_failed_account_not_found">ACCOUNT NOT FOUND IN DATABASE!</string>
 
-    <!-- Login & Home Logic -->
-    <string name="login_loading">جاري تسجيل الدخول...</string>
-    <string name="login_failed_account_not_found">الحساب غير موجود!</string>
-    <string name="overlay_permission_granted">تم تفعيل الإذن! اضغط دخول مرة أخرى</string>
-    <string name="overlay_permission_denied">يجب تفعيل إذن الظهور فوق التطبيقات!</string>
-    <string name="game_not_found">Could not find 8 Ball Pool!</string>
-    <string name="home_admin_notice">إشعار إداري</string>
+    <!-- Home Flags -->
+    <string name="overlay_permission_granted">PERMISSION GRANTED! INITIATE AGAIN.</string>
+    <string name="overlay_permission_denied">OVERLAY PERMISSION REQUIRED FOR HUD!</string>
+    <string name="game_not_found">TARGET PROTOCOL (8 BALL POOL) NOT FOUND!</string>
+    <string name="home_admin_notice">SYSTEM NOTIFICATION</string>
 
-    <!-- Admin Logic -->
-    <string name="admin_delete_update_success">تم حذف التحديث الإجباري نهائياً بنجاح</string>
-    <string name="admin_delete_update_status">الحالة: لا يوجد تحديث إجباري مفروض حالياً</string>
-    <string name="admin_no_reward">⚠️ لا توجد مكافأة محددة</string>
-    <string name="admin_next_cycle">⏳ الدورة القادمة: %1$dي %2$dس</string>
-    <string name="admin_global_key">\n🔑 المفتاح العام: %1$s</string>
-    <string name="admin_no_update">⚠️ لم يتم تحديد تحديث بعد\n📱 إصدار التطبيق الحالي: %1$s</string>
-    <string name="admin_update_status">🔄 الإصدار المحدد: %1$s\n📱 إصدار التطبيق الحالي: %2$s\n🔗 %3$s</string>
-    <string name="admin_choose_days_keys">أدخل عدد الأيام والمفاتيح</string>
-    <string name="admin_enter_numbers">أدخل أرقاماً صحيحة فقط</string>
-    <string name="admin_key_limit">الحد 50 مفتاح</string>
-    <string name="admin_generating">⏳ جاري الإنشاء...</string>
-    <string name="admin_keys_created">✅ تم إنشاء %1$d مفتاح!</string>
-    <string name="admin_generate_btn">🔑 إنشاء المفاتيح</string>
-    <string name="admin_keys_copied">📋 تم نسخ المفاتيح!</string>
-    <string name="admin_enter_global_key">أدخل المفتاح العام الجديد</string>
-    <string name="admin_reward_updated">✅ تم تحديث المفتاح العام للمكافأة!</string>
-    <string name="admin_enter_uid">أدخل UID أو بريد إلكتروني</string>
-    <string name="admin_searching">🔍 جاري البحث...</string>
-    <string name="admin_email_not_found">❌ البريد غير موجود</string>
-    <string name="admin_uid_not_found">❌ UID غير موجود</string>
-    <string name="admin_search_error">❌ خطأ في البحث</string>
-    <string name="admin_enter_required_data">أدخل البيانات المطلوبة</string>
-    <string name="admin_invalid_days">عدد الأيام غير صحيح</string>
-    <string name="admin_extend_success">✅ تمديد %1$d يوم!</string>
-    <string name="admin_activation_success">✅ تم التفعيل</string>
-    <string name="admin_activation_cancelled">⛔ تم الإلغاء</string>
-    <string name="admin_ann_content_required">محتوى الإعلان مطلوب!</string>
-    <string name="admin_ann_published">📢 تم نشر الإعلان بنجاح!</string>
-    <string name="admin_error">❌ فشل: %1$s</string>
-    <string name="admin_enter_reseller_data">أدخل اسم الموزع ورابط تيليغرام</string>
-    <string name="admin_reseller_added">✅ تمت إضافة الموزع: %1$s (%2$s)</string>
-    <string name="admin_add_success">✅ تمت الإضافة!</string>
-    <string name="admin_enter_reseller_name">أدخل اسم الموزع لحذفه</string>
-    <string name="admin_reseller_not_found">❌ الموزع غير موجود في هذه الدولة</string>
-    <string name="admin_reseller_deleted">🗑 تم حذف الموزع: %1$s</string>
-    <string name="admin_delete_success">🗑 تم الحذف!</string>
-    <string name="admin_enter_update_data">أدخل رقم الإصدار ورابط APK</string>
-    <string name="admin_version_number_error">رقم الإصدار يجب أن يكون رقماً</string>
-    <string name="admin_update_published">📢 تم نشر التحديث الإجباري!\nالإصدار: %1$s</string>
-    <string name="admin_btn_deactivate">⛔ إلغاء التفعيل</string>
-    <string name="admin_btn_activate">✅ تفعيل</string>
-    <string name="admin_user_active">مفعل</string>
-    <string name="admin_user_suspended">موقوف</string>
-
-    <!-- Generic Aliases -->
-    <string name="email">البريد الإلكتروني</string>
-    <string name="password">كلمة المرور</string>
-    <string name="forgot_pass">نسيت كلمة المرور؟</string>
-    <string name="create_account">إنشاء حساب جديد</string>
-    <string name="resellers">شراء كود LUX PRO</string>
-    <string name="dev_contact">تواصل مع المطور</string>
-    <string name="login_failed">فشل تسجيل الدخول</string>
-    <string name="reset_password">إعادة تعيين كلمة المرور</string>
-    <string name="reset_email_hint">أدخل بريدك الإلكتروني</string>
-    <string name="send">إرسال</string>
-    <string name="cancel">إلغاء</string>
-    <string name="reset_sent">تم إرسال رابط الاستعادة!</string>
-    <string name="error">خطأ!</string>
-    <string name="reg_email">البريد الإلكتروني</string>
-    <string name="reg_pass">كلمة المرور</string>
-    <string name="reg_confirm_pass">تأكيد كلمة المرور</string>
-    <string name="reg_btn">تسجيل</string>
-    <string name="fill_all_fields">الرجاء ملء جميع الحقول</string>
-    <string name="pass_no_match">كلمتا المرور غير متطابقتين</string>
-    <string name="reg_success">تم التسجيل بنجاح!</string>
-    <string name="reg_failed">فشل التسجيل: </string>
-    <string name="enter_key">أدخل كود التفعيل</string>
-    <string name="activate_btn">تفعيل</string>
-    <string name="device_id_label">هوية الجهاز: </string>
-    <string name="vip_activated">تم تفعيل VIP!</string>
-    <string name="key_used">الكود مستخدم أو غير صالح</string>
-    <string name="free_access">تم منح الوصول المجاني!</string>
-    <string name="start_game">▶ تشغيل اللعبة + تفعيل الهاك</string>
-    <string name="news_default">🔥 ستظهر هنا آخر الأخبار والتحديثات...</string>
-    <string name="engine_loading">المحرك يتحمل، انتظر ثانية...</string>
-    <string name="permission_required">يلزم منح الإذن!</string>
-    <string name="protected_msg">LUX PRO محمي!</string>
-    <string name="menu_customization">تخصيص القائمة</string>
-    <string name="icon_size">حجم الأيقونة</string>
-    <string name="icon_opacity">شفافية الأيقونة</string>
-    <string name="buy_keys">شراء الأكواد من الموزعين</string>
-    <string name="dev_contact_btn">تواصل مع المطور (يسو الدليمي)</string>
-    <string name="language_btn">🌐 Switch to English | التحويل للإنجليزية</string>
-    <string name="feature_1">خطوط طويلة</string>
-    <string name="feature_2">تصويب تلقائي</string>
-    <string name="feature_3">منع الخطأ</string>
-    <string name="feature_4">سرعة العصا</string>
-    <string name="feature_5">ضربة قوية</string>
-    <string name="feature_6">كرة شبح</string>
-    <string name="feature_7_auto">⚡ لعب تلقائي (وضع خارق)</string>
-    <string name="close_menu">✕ إغلاق</string>
-    <string name="language_changed">تم تغيير اللغة إلى: %1$s</string>
-    <string name="login_failed_error">فشل الدخول: %1$s</string>
-    <string name="device_id_prefix">معرف الجهاز: </string>
-    <string name="enter_key_error">يرجى إدخال المفتاح</string>
-    <string name="reward_expired_error">لقد انتهت صلاحية مفتاح المكافأة هذا!</string>
-    <string name="reward_granted_msg">تم منح حق الوصول للمكافأة! تنتهي الجلسة في: %1$s</string>
-    <string name="invalid_key_data">بيانات المفتاح غير صالحة</string>
-    <string name="vip_activated_msg">تم تفعيل الـ VIP!</string>
-    <string name="key_used_invalid">المفتاح مستخدم بالفعل أو غير صالح</string>
-    <string name="invalid_key">مفتاح غير صالح</string>
-    <string name="free_access_granted">تم منح حق الوصول المجاني!</string>
-    <string name="invalid_free_key">مفتاح مجاني غير صالح</string>
-    <string name="now">الآن</string>
-    <string name="delete_ann_title">حذف الإعلان</string>
-    <string name="delete_ann_confirm">هل أنت متأكد من حذف الإعلان: %1$s؟</string>
-    <string name="delete">حذف</string>
-    <string name="ann_deleted_msg">🗑 تم حذف الإعلان</string>
-    <string name="welcome_msg">مرحبا بكم في LUX PRO</string>
-    <string name="force_update_title">🔄 تحديث إجباري هام</string>
-    <string name="force_update_msg">يوجد إصدار جديد من LUX PRO!\nاضغط تحديث الآن وسيتم التحميل والتثبيت تلقائياً بدون متصفح.</string>
-    <string name="update_now_btn">⬇ تحديث الآن</string>
-    <string name="initializing_msg">جاري التهيئة... (%1$d%%)</string>
-    <string name="fill_all_fields_error">يرجى ملء جميع الحقول</string>
-    <string name="passwords_no_match">كلمات المرور غير متطابقة</string>
-    <string name="reg_success_msg">تم التسجيل بنجاح!</string>
-    <string name="reg_failed_error">فشل التسجيل: %1$s</string>
-    <string name="switched_to_ar">تم التحويل للعربية ✅</string>
+    <!-- Admin Fragment -->
+    <string name="admin_delete_update_success">FORCED UPDATE OVERRIDE PURGED</string>
+    <string name="admin_delete_update_status">STATUS: NO ACTIVE FORCED UPDATE</string>
+    <string name="admin_no_reward">⚠️ NO GLOBAL REWARD ACTIVE</string>
+    <string name="admin_next_cycle">⏳ NEXT CYCLE: %1$dD %2$dH</string>
+    <string name="admin_global_key">\n🔑 TARGET KEY: %1$s</string>
+    <string name="admin_no_update">⚠️ NO TARGET UPDATE SET\n📱 CURRENT BUILD: %1$s</string>
+    <string name="admin_update_status">🔄 TARGET BUILD: %1$s\n📱 CURRENT BUILD: %2$s\n🔗 %3$s</string>
+    <string name="admin_choose_days_keys">INPUT CYCLE DURATION &amp; BATCH COUNT</string>
+    <string name="admin_enter_numbers">INPUT NUMERIC VALUES ONLY</string>
+    <string name="admin_key_limit">BATCH LIMIT EXCEEDED (MAX 50)</string>
+    <string name="admin_generating">⏳ GENERATING MATRIX...</string>
+    <string name="admin_keys_created">✅ MATRIX GENERATED: %1$d KEYS!</string>
+    <string name="admin_generate_btn">🔑 MATRIX SYNTHESIS</string>
+    <string name="admin_keys_copied">📋 KEYS EXTRACTED TO CLIPBOARD!</string>
+    <string name="admin_enter_global_key">INPUT TARGET CIPHER (PASSWORD)</string>
+    <string name="admin_reward_updated">✅ REWARD PROTOCOL UPDATED!</string>
+    <string name="admin_enter_uid">INPUT TARGET UID OR EMAIL</string>
+    <string name="admin_searching">🔍 SCANNING DATABASE...</string>
+    <string name="admin_email_not_found">❌ EMAIL NOT FOUND IN REGISTRY</string>
+    <string name="admin_uid_not_found">❌ UID NOT FOUND IN REGISTRY</string>
+    <string name="admin_search_error">❌ DATABASE QUERY FAILED</string>
+    <string name="admin_enter_required_data">INPUT ALL REQUIRED PARAMETERS</string>
+    <string name="admin_invalid_days">INVALID CYCLE DURATION FORMAT</string>
+    <string name="admin_extend_success">✅ LIFECYCLE EXTENDED BY %1$d DAYS!</string>
+    <string name="admin_activation_success">✅ ACCESS GRANTED</string>
+    <string name="admin_activation_cancelled">⛔ ACCESS REVOKED</string>
+    <string name="admin_ann_content_required">TRANSMISSION CONTENT IS REQUIRED!</string>
+    <string name="admin_ann_published">📢 TRANSMISSION BROADCASTED!</string>
+    <string name="admin_error">❌ ERROR METRIC: %1$s</string>
+    <string name="admin_enter_reseller_data">INPUT VENDOR ALIAS &amp; COMM-LINK</string>
+    <string name="admin_reseller_added">✅ VENDOR REGISTERED: %1$s (%2$s)</string>
+    <string name="admin_add_success">✅ REGISTRATION SUCCESSFUL!</string>
+    <string name="admin_enter_reseller_name">INPUT VENDOR ALIAS FOR PURGE</string>
+    <string name="admin_reseller_not_found">❌ VENDOR NOT FOUND IN REGION</string>
+    <string name="admin_reseller_deleted">🗑 VENDOR PURGED: %1$s</string>
+    <string name="admin_delete_success">🗑 PURGE COMPLETE!</string>
+    <string name="admin_enter_update_data">INPUT BUILD ITERATION &amp; APK URI</string>
+    <string name="admin_version_number_error">ITERATION MUST BE NUMERIC</string>
+    <string name="admin_update_published">📢 FORCED UPDATE BROADCASTED!\nBUILD ITERATION: %1$s</string>
+    <string name="admin_btn_deactivate">⛔ REVOKE ACCESS</string>
+    <string name="admin_btn_activate">✅ GRANT ACCESS</string>
+    <string name="admin_user_active">AUTHORIZED</string>
+    <string name="admin_user_suspended">SUSPENDED</string>
+    <string name="language_changed">Language changed to: %1$s</string>
+    <string name="login_failed_error">Login Failed: %1$s</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_email_hint">Enter your email</string>
+    <string name="reset_sent">Reset link sent!</string>
+    <string name="error">Error!</string>
+    <string name="send">Send</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="mod_scanner">Table Scanner</string>
+    <string name="device_id_prefix">Device ID: </string>
+    <string name="enter_key_error">Please enter a key</string>
+    <string name="reward_expired_error">This reward key has already expired!</string>
+    <string name="reward_granted_msg">Reward Access Granted! Session ends at: %1$s</string>
+    <string name="invalid_key_data">Invalid Key Data</string>
+    <string name="vip_activated_msg">VIP Activated!</string>
+    <string name="key_used_invalid">Key already used or invalid</string>
+    <string name="invalid_key">Invalid Key</string>
+    <string name="free_access_granted">Free Access Granted!</string>
+    <string name="invalid_free_key">Invalid Free Key</string>
+    <string name="now">Now</string>
+    <string name="delete_ann_title">Delete Announcement</string>
+    <string name="delete_ann_confirm">Are you sure you want to delete: %1$s?</string>
+    <string name="delete">Delete</string>
+    <string name="ann_deleted_msg">🗑 Announcement deleted</string>
+    <string name="welcome_msg">Welcome to LUX PRO</string>
+    <string name="force_update_title">🔄 Important Force Update</string>
+    <string name="force_update_msg">A new version of LUX PRO is available!\nClick Update Now and it will be downloaded and installed automatically.</string>
+    <string name="update_now_btn">⬇ Update Now</string>
+    <string name="initializing_msg">Initializing... (%1$d%%)</string>
+    <string name="fill_all_fields_error">Please fill all fields</string>
+    <string name="passwords_no_match">Passwords do not match</string>
+    <string name="reg_success_msg">Registration Successful!</string>
+    <string name="reg_failed_error">Registration Failed: %1$s</string>
+    <string name="switched_to_ar">Switched to Arabic ✅</string>
     <string name="switched_to_en">Switched to English ✅</string>
-    <string name="logout_title">تسجيل الخروج</string>
-    <string name="logout_confirm">هل تريد تسجيل الخروج وإغلاق التطبيق؟</string>
-    <string name="yes">نعم</string>
-    <string name="no">لا</string>
-    <string name="ann_system_title">نظام الإعلانات العالمية المطور</string>
-    <string name="ann_title_hint">عنوان الإعلان المثير (اختياري)</string>
-    <string name="ann_content_hint">محتوى وتفاصيل الإعلان (مطلوب)</string>
-    <string name="ann_link_hint">رابط عند الضغط (اختياري)</string>
-    <string name="ann_pinned_label">تثبيت هذا الإعلان في القمة 📌</string>
-    <string name="ann_publish_btn">نشر الإعلان كجديد 🚀</string>
-    <string name="ann_list_title">الإعلانات المنشورة حالياً (للحذف والتعديل)</string>
-    <string name="delete_update_btn">حذف التحديث</string>
-    <string name="logout_section_title">تسجيل الخروج وإنهاء الجلسة</string>
-    <string name="logout_btn">تسجيل الخروج من الحساب</string>
-    <string name="admin_uid_prefix">🆔 معرف المستخدم (UID): </string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_confirm">Do you want to logout and close the app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ann_system_title">Advanced Global Announcement System</string>
+    <string name="ann_title_hint">Announcement Title (Optional)</string>
+    <string name="ann_content_hint">Announcement Details (Required)</string>
+    <string name="ann_link_hint">Action Link (Optional)</string>
+    <string name="ann_pinned_label">Pin this announcement to top 📌</string>
+    <string name="ann_publish_btn">Publish New Announcement 🚀</string>
+    <string name="ann_list_title">Current Announcements (Delete/Edit)</string>
+    <string name="delete_update_btn">Delete Update</string>
+    <string name="logout_section_title">Logout &amp; End Session</string>
+    <string name="logout_btn">Logout from Account</string>
+    <string name="admin_uid_prefix">🆔 User UID: </string>
     <string name="home_logo_text">LUX PRO</string>
-    <string name="home_pinned_title">الإعلانات المثبتة 📌</string>
-    <string name="home_normal_title">إعلانات هامة 📢</string>
-    <string name="home_start_game_btn">إبدأ اللعبة الآن 🎮</string>
-    <string name="update_fail_msg">فشل تحميل التحديث، يرجى المحاولة مجدداً</string>
-    <string name="update_running_title">LUX PRO - جاري التحديث</string>
-    <string name="update_progress_msg">تحميل التحديث: %1$d%%</string>
-    <string name="update_start_msg">جاري بدء التحميل...</string>
-    <string name="update_channel_name">تحديثات LUX PRO</string>
-    <string name="update_channel_desc">إشعارات تحميل التحديثات</string>
+    <string name="home_pinned_title">Pinned Announcements 📌</string>
+    <string name="home_normal_title">Important Notices 📢</string>
+    <string name="home_start_game_btn">Start Game Now 🎮</string>
+    <string name="update_fail_msg">Update download failed, please try again</string>
+    <string name="update_running_title">LUX PRO - Updating</string>
+    <string name="update_progress_msg">Downloading update: %1$d%%</string>
+    <string name="update_start_msg">Starting download...</string>
+    <string name="update_channel_name">LUX PRO Updates</string>
+    <string name="update_channel_desc">Update download notifications</string>
     <string name="rewards_title">🏆 GLOBAL REWARDS</string>
-    <string name="rewards_next_timer_label">⏱ الوقت المتبقي للمكافأة القادمة</string>
-    <string name="rewards_hour_unit">ساعة</string>
-    <string name="rewards_minute_unit">دقيقة</string>
-    <string name="rewards_second_unit">ثانية</string>
-    <string name="rewards_ready_msg">🎁 مكافأتك جاهزة!</string>
-    <string name="rewards_click_hint">اضغط على الزر للحصول على مفتاحك الذهبي</string>
-    <string name="rewards_get_btn">⚡ اكتشف مكافأتك</string>
-    <string name="rewards_global_key_label">🔑 مفتاحك العالمي</string>
-    <string name="rewards_copy_btn">📋 نسخ</string>
-    <string name="rewards_save_hint">✅ احتفظ بهذا المفتاح وفعّله في الحساب</string>
-    <string name="ann_pinned_tag">إعلان هام / مثبت</string>
-    <string name="ann_link_btn_pinned">🔗 الدخول للرابط المثبت</string>
-    <string name="ann_link_btn_normal">فتح الرابط المرفق ↗</string>
+    <string name="rewards_next_timer_label">⏱ Time Remaining for Next Reward</string>
+    <string name="rewards_hour_unit">Hour</string>
+    <string name="rewards_minute_unit">Minute</string>
+    <string name="rewards_second_unit">Second</string>
+    <string name="rewards_ready_msg">🎁 Your Reward is Ready!</string>
+    <string name="rewards_click_hint">Click the button to reveal your golden key</string>
+    <string name="rewards_get_btn">⚡ Discover Your Reward</string>
+    <string name="rewards_global_key_label">🔑 Your Global Key</string>
+    <string name="rewards_copy_btn">📋 Copy</string>
+    <string name="rewards_save_hint">✅ Keep this key and activate it in settings</string>
+    <string name="ann_pinned_tag">Important / Pinned Notice</string>
+    <string name="ann_link_btn_pinned">🔗 Enter Pinned Link</string>
+    <string name="ann_link_btn_normal">Open Linked Page ↗</string>
     <string name="reseller_uplink_tag">AUTHORIZED UPLINK</string>
     <string name="telegram">TELEGRAM</string>
     <string name="service_active_title">LUX PRO Active</string>
-    <string name="service_active_msg">حماية LUX PRO مفعّلة</string>
-    <string name="service_desc">خدمة حماية LUX PRO للعبة</string>
-    <string name="lang_ar">العربية</string>
+    <string name="service_active_msg">LUX PRO Protection Active</string>
+    <string name="service_desc">LUX PRO Game Shield Service</string>
+    <string name="lang_ar">Arabic</string>
     <string name="lang_en">ENGLISH</string>
 
     <string-array name="country_list">
-        <item>🇸🇦 السعودية</item>
-        <item>🇮🇶 العراق</item>
-        <item>🇦🇪 الإمارات</item>
-        <item>🇰🇼 الكويت</item>
-        <item>🇧🇭 البحرين</item>
-        <item>🇶🇦 قطر</item>
-        <item>🇴🇲 عُمان</item>
-        <item>🇾🇪 اليمن</item>
-        <item>🇯🇴 الأردن</item>
-        <item>🇸🇾 سوريا</item>
-        <item>🇱🇧 لبنان</item>
-        <item>🇵🇸 فلسطين</item>
-        <item>🇪🇬 مصر</item>
-        <item>🇱🇾 ليبيا</item>
-        <item>🇹🇳 تونس</item>
-        <item>🇩🇿 الجزائر</item>
-        <item>🇲🇦 المغرب</item>
-        <item>🇲🇷 موريتانيا</item>
-        <item>🇸🇩 السودان</item>
-        <item>🇸🇴 الصومال</item>
-        <item>🇩🇯 جيبوتي</item>
-        <item>🇰🇲 جزر القمر</item>
-        <item>🇺🇸 الولايات المتحدة</item>
-        <item>🇬🇧 المملكة المتحدة</item>
-        <item>🇩🇪 ألمانيا</item>
-        <item>🇫🇷 فرنسا</item>
-        <item>🇮🇹 إيطاليا</item>
-        <item>🇪🇸 إسبانيا</item>
-        <item>🇷🇺 روسيا</item>
-        <item>🇨🇳 الصين</item>
-        <item>🇯🇵 اليابان</item>
-        <item>🇰🇷 كوريا الجنوبية</item>
-        <item>🇮🇳 الهند</item>
-        <item>🇵🇰 باكستان</item>
-        <item>🇧🇩 بنغلاديش</item>
-        <item>🇮🇷 إيران</item>
-        <item>🇹🇷 تركيا</item>
-        <item>🇮🇩 إندونيسيا</item>
-        <item>🇲🇾 ماليزيا</item>
-        <item>🇵🇭 الفلبين</item>
-        <item>🇹🇭 تايلاند</item>
-        <item>🇻🇳 فيتنام</item>
-        <item>🇸🇬 سنغافورة</item>
-        <item>🇧🇷 البرازيل</item>
-        <item>🇲🇽 المكسيك</item>
-        <item>🇦🇷 الأرجنتين</item>
-        <item>🇨🇴 كولومبيا</item>
-        <item>🇨🇦 كندا</item>
-        <item>🇦🇺 أستراليا</item>
-        <item>🇳🇿 نيوزيلندا</item>
-        <item>🇿🇦 جنوب أفريقيا</item>
-        <item>🇳🇬 نيجيريا</item>
-        <item>🇰🇪 كينيا</item>
-        <item>🇬🇭 غانا</item>
-        <item>🇸🇪 السويد</item>
-        <item>🇳🇴 النرويج</item>
-        <item>🇩🇰 الدنمارك</item>
-        <item>🇫🇮 فنلندا</item>
-        <item>🇳🇱 هولندا</item>
-        <item>🇧🇪 بلجيكا</item>
-        <item>🇨🇭 سويسرا</item>
-        <item>🇦🇹 النمسا</item>
-        <item>🇵🇱 بولندا</item>
-        <item>🇺🇦 أوكرانيا</item>
-        <item>🇷🇴 رومانيا</item>
-        <item>🇬🇷 اليونان</item>
-        <item>🌍 دولة أخرى</item>
+        <item>🇸🇦 Saudi Arabia</item>
+        <item>🇮🇶 Iraq</item>
+        <item>🇦🇪 UAE</item>
+        <item>🇰🇼 Kuwait</item>
+        <item>🇧🇭 Bahrain</item>
+        <item>🇶🇦 Qatar</item>
+        <item>🇴🇲 Oman</item>
+        <item>🇾🇪 Yemen</item>
+        <item>🇯🇴 Jordan</item>
+        <item>🇸🇾 Syria</item>
+        <item>🇱🇧 Lebanon</item>
+        <item>🇵🇸 Palestine</item>
+        <item>🇪🇬 Egypt</item>
+        <item>🇱🇾 Libya</item>
+        <item>🇹🇳 Tunisia</item>
+        <item>🇩🇿 Algeria</item>
+        <item>🇲🇦 Morocco</item>
+        <item>🇲🇷 Mauritania</item>
+        <item>🇸🇩 Sudan</item>
+        <item>🇸🇴 Somalia</item>
+        <item>🇩🇯 Djibouti</item>
+        <item>🇰🇲 Comoros</item>
+        <item>🇺🇸 USA</item>
+        <item>🇬🇧 UK</item>
+        <item>🇩🇪 Germany</item>
+        <item>🇫🇷 France</item>
+        <item>🇮🇹 Italy</item>
+        <item>🇪🇸 Spain</item>
+        <item>🇷🇺 Russia</item>
+        <item>🇨🇳 China</item>
+        <item>🇯🇵 Japan</item>
+        <item>🇰🇷 South Korea</item>
+        <item>🇮🇳 India</item>
+        <item>🇵🇰 Pakistan</item>
+        <item>🇧🇩 Bangladesh</item>
+        <item>🇮🇷 Iran</item>
+        <item>🇹🇷 Turkey</item>
+        <item>🇮🇩 Indonesia</item>
+        <item>🇲🇾 Malaysia</item>
+        <item>🇵🇭 Philippines</item>
+        <item>🇹🇭 Thailand</item>
+        <item>🇻🇳 Vietnam</item>
+        <item>🇸🇬 Singapore</item>
+        <item>🇧🇷 Brazil</item>
+        <item>🇲🇽 Mexico</item>
+        <item>🇦🇷 Argentina</item>
+        <item>🇨🇴 Colombia</item>
+        <item>🇨🇦 Canada</item>
+        <item>🇦🇺 Australia</item>
+        <item>🇳🇿 New Zealand</item>
+        <item>🇿🇦 South Africa</item>
+        <item>🇳🇬 Nigeria</item>
+        <item>🇰🇪 Kenya</item>
+        <item>🇬🇭 Ghana</item>
+        <item>🇸🇪 Sweden</item>
+        <item>🇳🇴 Norway</item>
+        <item>🇩🇰 Denmark</item>
+        <item>🇫🇮 Finland</item>
+        <item>🇳🇱 Netherlands</item>
+        <item>🇧🇪 Belgium</item>
+        <item>🇨🇭 Switzerland</item>
+        <item>🇦🇹 Austria</item>
+        <item>🇵🇱 Poland</item>
+        <item>🇺🇦 Ukraine</item>
+        <item>🇷🇴 Romania</item>
+        <item>🇬🇷 Greece</item>
+        <item>🌍 Other Country</item>
     </string-array>
-    <string name="delete_ann_desc">حذف الإعلان</string>
-    <string name="toggle_lang_desc">تغيير اللغة</string>
+    <string name="delete_ann_desc">Delete Announcement</string>
+    <string name="toggle_lang_desc">Toggle Language</string>
     <string name="tag_lux">LUX</string>
     <string name="hwid_label_simple">HWID</string>
     <!-- Sentinel Health Monitor -->
-    <string name="sentinel_title">🛰 مراقب الحماية (SENTINEL)</string>
-    <string name="sentinel_status_label">حالة التوافق:</string>
-    <string name="sentinel_supported">النسخة مدعومة بالكامل ✅</string>
-    <string name="sentinel_needs_update">تحذير: مطلوب تحديث القالب ⚠️</string>
-    <string name="sentinel_feed_title">📡 البث المباشر للسجلات (LOGS)</string>
+    <string name="sentinel_title">🛰 SENTINEL HEALTH MONITOR</string>
+    <string name="sentinel_status_label">Global Support Status:</string>
+    <string name="sentinel_supported">FULLY SUPPORTED ✅</string>
+    <string name="sentinel_needs_update">NEEDS PATTERN UPDATE ⚠️</string>
+    <string name="sentinel_feed_title">📡 REAL-TIME SENTINEL FEED</string>
     <string name="sentinel_btn_trace">Trace</string>
     <string name="sentinel_btn_offset">Push Offset</string>
-    <string name="sentinel_reconstruct_trace">🛰 جاري فك تشفير مسار Black-Hole...</string>
-    <string name="sentinel_trace_logged">تم تسجيل السجل في Logcat (وضع التخفي)</string>
-    <string name="sentinel_offset_pushed">🚀 تم دفع الأوفست العالمي لجميع المشتركين</string>
-    <string name="hm_hwid_prefix">رقم الجهاز (HWID): </string>
-    <string name="hm_game_ver_prefix">نسخة اللعبة: </string>
-    <string name="mod_line_width">سمك المسار (NDK Rendering)</string>
-    <string name="mod_opacity">شفافية المسار (Stealth Alpha)</string>
-    <string name="bot_title">وحدة تحكم البوت</string>
-    <string name="bot_autonomous">التشغيل التلقائي المستقل</string>
+    <string name="mod_line_width">Line Width (NDK Rendering)</string>
+    <string name="mod_opacity">Line Opacity (Stealth Alpha)</string>
+    <string name="bot_title">BOT CONTROLLER</string>
+    <string name="bot_autonomous">AUTONOMOUS BOT FLOW</string>
     <string-array name="game_tables">
         <item>London (50)</item>
         <item>Sydney (200)</item>
@@ -446,83 +462,82 @@
     </string-array>
 
     <!-- Phase 11 Localizations -->
-    <string name="vfx_menu_title">⚡ التوهج والتحكم البصري · VFX</string>
-    <string name="vfx_section_glow">[ توهج النيون ]</string>
-    <string name="vfx_glow_intensity">قوة التوهج: 80%</string>
-    <string name="vfx_pulse_speed">سرعة النبض: 1.0x</string>
-    <string name="vfx_electric_arc">القوس الكهربائي (بلازما الباندار)</string>
-    <string name="vfx_section_color">[ لوحة الألوان التكتيكية ]</string>
-    <string name="vfx_path_direct">المسار المباشر</string>
-    <string name="vfx_path_bank">مسار الباندار</string>
-    <string name="vfx_section_quick">[ الأنماط السريعة ]</string>
-    <string name="vfx_preset_ghost">👻 شبح</string>
-    <string name="vfx_preset_dominator">💀 جلاد</string>
-    <string name="vfx_preset_stealth">🕶️ تخفي</string>
-    <string name="vfx_back_main">◄ العودة للقائمة</string>
-    <string name="status_on">تشغيل</string>
-    <string name="status_off">إيقاف</string>
-    <string name="game_pid">رقم تعريف اللعبة (PID): </string>
+    <string name="vfx_menu_title">⚡ VISUAL MASTERY · VFX</string>
+    <string name="vfx_section_glow">[ NEON GLOW ]</string>
+    <string name="vfx_glow_intensity">Glow Intensity: 80%</string>
+    <string name="vfx_pulse_speed">Pulse Frequency: 1.0x</string>
+    <string name="vfx_electric_arc">Electric Arc (Bank Shot Plasma)</string>
+    <string name="vfx_section_color">[ TACTICAL COLOR PALETTE ]</string>
+    <string name="vfx_path_direct">Direct Path</string>
+
+    <string name="status_on">ON</string>
+    <string name="status_off">OFF</string>
+    <string name="game_pid">8BP PID: </string>
     <string name="switch_status_format">%1$s: %2$s</string>
 
-    <string name="mod_path_color_preset">[ تشكيلة ألوان المسار ]</string>
-    
+    <string name="mod_path_color_preset">[ PATH COLOR PRESET ]</string>
+    <string name="mod_preset_classic">CLASSIC</string>
+    <string name="mod_preset_neon">NEON</string>
+    <string name="mod_preset_danger">DANGER</string>
+    <string name="mod_preset_stealth">STEALTH</string>
+    <string name="mod_calibrate_table">AUTO-CALIBRATE TABLE</string>
+    <string name="mod_bot_controller">[ BOT CONTROLLER ]</string>
+    <string name="mod_bot_autonomous">AUTONOMOUS BOT FLOW</string>
+
     <!-- Account Management -->
-    <string name="menu_account_title">[ إدارة الحسابات ]</string>
-    <string name="btn_login_google">تسجيل الدخول عبر جوجل</string>
-    <string name="btn_bind_account">ربط حساب Miniclip / Bind</string>
-    <string name="status_logged_in">متصل كـ: %1$s</string>
-    <string name="status_guest">حساب زائر (غير مربوط)</string>
+    <string name="menu_account_title">[ ACCOUNT MANAGEMENT ]</string>
+    <string name="btn_login_google">Login with Google</string>
+    <string name="btn_bind_account">Miniclip / Bind Account</string>
+    <string name="status_logged_in">Logged In as: %1$s</string>
+    <string name="status_guest">Guest Account (Unbound)</string>
 
     <!-- Royal Account Vault -->
-    <string name="vault_title">[ ⚡ خزنة LUX - الحسابات ]</string>
-    <string name="vault_btn_purge">تنظيف الهوية وتسجيل الخروج</string>
-    <string name="vault_cleansing_msg">⚠️ جاري تنظيف بيانات الجلسة... حماية 100%</string>
-    <string name="vault_purge_confirmed">تم تدمير كافة الآثار بنجاح!</string>
-    <string name="vault_switch_account">تبديل الحساب</string>
-    <string name="vault_clear_traces_toggle">مسح كافة الآثار (Ghost Mode)</string>
-
-    <string name="mod_preset_classic">كلاسيكي</string>
-    <string name="mod_preset_neon">نيون</string>
-    <string name="mod_preset_danger">خطر</string>
-    <string name="mod_preset_stealth">تخفي</string>
-    <string name="mod_calibrate_table">معايرة الطاولة تلقائياً</string>
-    <string name="mod_bot_controller">[ وحدة الآلي ]</string>
-    <string name="mod_bot_autonomous">التشغيل الآلي المستقل</string>
+    <string name="vault_title">[ ⚡ LUX VAULT - ACCOUNTS ]</string>
+    <string name="vault_btn_purge">DEEP PURGE &amp; LOGOUT</string>
+    <string name="vault_cleansing_msg">⚠️ SECURITY: CLEANSING SESSION DATA... 100% SECURE</string>
+    <string name="vault_purge_confirmed">IDENTITY RESET COMPLETED!</string>
+    <string name="vault_switch_account">SWITCH ACCOUNT</string>
+    <string name="vault_clear_traces_toggle">GHOST PURGE (Zero-Trace)</string>
 
     <!-- Dynamic Formats -->
-    <string name="toast_table_calibrated">تمت معايرة أبعاد الطاولة</string>
-    <string name="toast_bot_auto">نظام اللعب الآلي: %1$s</string>
-    <string name="bot_deployed">🟢 يعمل</string>
-    <string name="bot_recalled">🔴 متوقف</string>
-    <string name="toast_color_preset">نمط ألوان المسار: %1$s</string>
-    <string name="vfx_mode_toast">نمط التدخل البصري: %1$s</string>
-    <string name="label_glow_intensity">قوة التوهج: %1$d%%</string>
-    <string name="label_pulse_speed">سرعة النبض: %1$.1fx</string>
+    <string name="toast_table_calibrated">Table Vectors Synchronized</string>
+    <string name="toast_bot_auto">Autonomous Bot: %1$s</string>
+    <string name="bot_deployed">DEPLOYED</string>
+    <string name="bot_recalled">RECALLED</string>
+    <string name="toast_color_preset">Color Preset: %1$s</string>
+    <string name="vfx_mode_toast">VFX Mode: %1$s</string>
+    <string name="label_glow_intensity">Glow Intensity: %1$d%%</string>
+    <string name="label_pulse_speed">Pulse Frequency: %1$.1fx</string>
 
     <!-- Lobby Oracle -->
-    <string name="oracle_analyzing">جاري التحليل...</string>
-    <string name="oracle_your_break">كسرتك [مضمونة]</string>
-    <string name="oracle_opponent_break">كسرة الخصم [تحذير]</string>
-    <string name="welcome_notification">💎 LUX PRO: تم تفعيل النواة الملكية.. استمتع بالسيطرة!</string>
+    <string name="oracle_analyzing">Analyzing...</string>
+    <string name="oracle_your_break">Your Break [ACCESS GRANTED]</string>
+    <string name="oracle_opponent_break">[WARNING: OPPONENT BREAK]</string>
+    <string name="welcome_notification">💎 LUX PRO: Royal Core Activated.. Dominate the Table!</string>
 
     <!-- Missing Settings & Admin Strings -->
-    <string name="settings_hwid_label">هوية الجهاز (HWID): </string>
-    <string name="settings_uplink_label">البريد الإلكتروني: </string>
-    <string name="settings_sub_label">حالة الاشتراك: </string>
-    <string name="admin_user_info_title">👤 معلومات المستخدم</string>
-    <string name="sentinel_no_logs">ℹ️ لا توجد سجلات جديدة بعد</string>
-    <string name="hwid_copied_toast">تم نسخ الهوية بنجاح ✓</string>
+    <string name="settings_hwid_label">DEVICE ID (HWID): </string>
+    <string name="settings_uplink_label">EMAIL UPLINK: </string>
+    <string name="settings_sub_label">SUBSCRIPTION STATUS: </string>
+    <string name="admin_user_info_title">👤 USER IDENTITY</string>
+    <string name="sentinel_no_logs">ℹ️ No new logs available yet</string>
+    <string name="hwid_copied_toast">Identity Copied ✓</string>
 
     <!-- Professional Bridge UI -->
-    <string name="bridge_title">مركز جسر الحماية الملكي</string>
-    <string name="bridge_status_connecting">جاري تهيئة قناة الاتصال لـ %1$s...</string>
-    <string name="bridge_status_ready">قناة الاتصال جاهزة تماماً للربط الأمن</string>
-    <string name="bridge_btn_connect">بدء تفويض الدخول عبر الجسر ⚡</string>
-    <string name="bridge_warning">تحذير: لا تغلق المتصفح بعد فتحه حتى يكتمل الربط.</string>
-    <string name="bridge_loading">جاري معالجة بروتوكولات الربط...</string>
+    <string name="bridge_title">Royal Security Bridge Center</string>
+    <string name="bridge_status_connecting">Initializing Link for %1$s...</string>
+    <string name="bridge_status_ready">Link Ready for Secure Authorization</string>
+    <string name="bridge_btn_connect">Start Bridge Authorization ⚡</string>
+    <string name="bridge_warning">Warning: Do not close the browser until authorization is complete.</string>
+    <string name="bridge_loading">Processing Secure Protocols...</string>
 
-    <!-- Mod Menu SeekBar Labels -->
-    <string name="line_width">سمك المسار</string>
-    <string name="opacity">مستوى الشفافية</string>
+    <!-- Missing Sentinel & System Strings -->
+    <string name="sentinel_trace_logged">SENTINEL: TRACE LOGGED TO DATABASE</string>
+    <string name="sentinel_offset_pushed">SENTINEL: OFFSET PUSHED TO CORE</string>
+    <string name="hm_hwid_prefix">HWID: </string>
+    <string name="hm_game_ver_prefix">VER: </string>
+    <string name="protected_msg">LUX SHIELD: ACTIVE &amp; PROTECTED</string>
+    <string name="engine_loading">INITIATING QUANTUM ENGINE...</string>
+    <string name="menu_status_title">LUX PRO ULTIMATE</string>
 
 </resources>

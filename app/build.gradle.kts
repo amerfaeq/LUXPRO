@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.luxpro.vip"
+    namespace = "com.luxpro.max"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.luxpro.vip"
+        applicationId = "com.luxpro.max"
         minSdk = 24
         targetSdk = 34
         versionCode = 2
@@ -70,6 +70,10 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    tasks.withType<JavaCompile> {
+        options.compilerArgs.add("-Xlint:deprecation")
     }
 
     externalNativeBuild {

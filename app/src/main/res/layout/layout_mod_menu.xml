@@ -1,136 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_card"
     android:layout_width="320dp"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@drawable/bg_neon_glass"
-    android:padding="2dp">
+    app:cardCornerRadius="28dp"
+    app:cardElevation="15dp"
+    app:cardBackgroundColor="#CC1A1A1A"
+    app:strokeWidth="2dp"
+    app:strokeColor="#AA00FFFF">
 
-    <!-- ══ HEADER ══ -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:background="#1AFFFFFF">
-        
-        <TextView
-            android:id="@+id/tv_menu_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="LUX PRO v1.1"
-            android:textColor="#00FFFF"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:shadowColor="#00FFFF"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="10"/>
-
-        <TextView
-            android:id="@+id/tv_user_serial"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tv_menu_title"
-            android:text="SERIAL: LUX-882-VIP"
-            android:textColor="#80FFFFFF"
-            android:textSize="10sp"/>
-
-        <TextView
-            android:id="@+id/tv_game_pid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:text="PID: ----"
-            android:textColor="#00FF88"
-            android:textSize="11sp"/>
-            
-        <Button
-            android:id="@+id/btn_menu_lang"
-            android:layout_width="45dp"
-            android:layout_height="32dp"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@id/tv_game_pid"
-            android:layout_marginTop="5dp"
-            android:text="EN"
-            android:textSize="10sp"
-            android:background="#33FFFFFF"
-            android:textColor="#FFFFFF"/>
-    </RelativeLayout>
-
-    <!-- ══ TAB BAR ══ -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="4dp">
-        <Button android:id="@+id/tab_aim" android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:text="AIM" android:background="#11FFFFFF" android:textColor="#00FFFF" android:textSize="12sp" android:layout_margin="2dp"/>
-        <Button android:id="@+id/tab_vfx" android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:text="VFX" android:background="#11FFFFFF" android:textColor="#FFFFFF" android:textSize="12sp" android:layout_margin="2dp"/>
-        <Button android:id="@+id/tab_bridge" android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:text="BRIDGE" android:background="#11FFFFFF" android:textColor="#FFFFFF" android:textSize="12sp" android:layout_margin="2dp"/>
-    </LinearLayout>
-
-    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#33FFFFFF"/>
-
-    <!-- ══ FEATURE AREAS ══ -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="260dp">
-
-        <!-- AIM SECTION -->
-        <ScrollView android:id="@+id/section_aim" android:layout_width="match_parent" android:layout_height="match_parent" android:visibility="visible">
-            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AIMBOT CONTROLS" android:textColor="#00AAFF" android:textSize="11sp" android:layout_marginBottom="8dp"/>
-                <include android:id="@+id/sw_prediction" layout="@layout/item_menu_switch"/>
-                <include android:id="@+id/sw_autoplay" layout="@layout/item_menu_switch"/>
-                <include android:id="@+id/sw_win_seq" layout="@layout/item_menu_switch"/>
-                <include android:id="@+id/sw_break_detector" layout="@layout/item_menu_switch"/>
-                
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LINE THICKNESS" android:textColor="#80FFFFFF" android:textSize="9sp" android:layout_marginTop="12dp"/>
-                <SeekBar android:id="@+id/seek_line_width" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="40" android:progress="20" android:progressTint="#00AAFF"/>
-            </LinearLayout>
-        </ScrollView>
-
-        <!-- VFX SECTION -->
-        <ScrollView android:id="@+id/section_vfx" android:layout_width="match_parent" android:layout_height="match_parent" android:visibility="gone">
-            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VISUAL ENHANCEMENTS" android:textColor="#AA00FF" android:textSize="11sp" android:layout_marginBottom="8dp"/>
-                <include android:id="@+id/sw_ghost_mode" layout="@layout/item_menu_switch"/>
-                
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GLOW OPACITY" android:textColor="#80FFFFFF" android:textSize="9sp" android:layout_marginTop="12dp"/>
-                <SeekBar android:id="@+id/seek_opacity" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="80" android:progressTint="#AA00FF"/>
-
-                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="15dp">
-                    <Button android:id="@+id/btn_preset_ghost" android:layout_width="0dp" android:layout_weight="1" android:layout_height="36dp" android:text="GHOST" android:textSize="10sp" android:background="#1AFFFFFF" android:textColor="#FFFFFF"/>
-                    <Button android:id="@+id/btn_preset_dominator" android:layout_width="0dp" android:layout_weight="1" android:layout_height="36dp" android:text="ULTRA" android:textSize="10sp" android:background="#1AFFFFFF" android:textColor="#FFFFFF" android:layout_marginHorizontal="4dp"/>
-                    <Button android:id="@+id/btn_preset_stealth" android:layout_width="0dp" android:layout_weight="1" android:layout_height="36dp" android:text="STEALTH" android:textSize="10sp" android:background="#1AFFFFFF" android:textColor="#FFFFFF"/>
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
-
-        <!-- BRIDGE SECTION -->
-        <ScrollView android:id="@+id/section_bridge" android:layout_width="match_parent" android:layout_height="match_parent" android:visibility="gone">
-            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SECURITY INFRASTRUCTURE" android:textColor="#FF0088" android:textSize="11sp" android:layout_marginBottom="8dp"/>
-                <include android:id="@+id/sw_secure_bridge" layout="@layout/item_menu_switch"/>
-                
-                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:background="#11FFFFFF" android:padding="8dp">
-                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CURRENT STATUS" android:textColor="#80FFFFFF" android:textSize="9sp"/>
-                    <TextView android:id="@+id/tv_bridge_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="ACTIVE" android:textColor="#00FF88" android:textSize="11sp" android:textStyle="bold"/>
-                </RelativeLayout>
-
-                <Button android:id="@+id/btn_activate_bridge" android:layout_width="match_parent" android:layout_height="42dp" android:text="RE-VERIFY BRIDGE" android:background="#22FF0088" android:textColor="#FF0088" android:layout_marginTop="20dp"/>
-            </LinearLayout>
-        </ScrollView>
-    </FrameLayout>
-
-    <!-- ══ FOOTER ══ -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:background="#1A000000">
-        <TextView android:id="@+id/tv_time_scale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SIMULATION SPEED: 1.0x" android:textColor="#00FFFF" android:textSize="10sp"/>
-        <SeekBar android:id="@+id/seek_time_scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="250" android:progress="100" android:progressTint="#00FFFF"/>
-    </LinearLayout>
+        android:background="@drawable/glass_background"
+        android:padding="16dp">
 
-</LinearLayout>
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+            
+            <TextView
+                android:id="@+id/menu_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"/>
+
+            <Button
+                android:id="@+id/btn_menu_lang"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/menu_lang_btn"
+                android:textSize="10sp"
+                android:background="#33FFFFFF"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+
+        <!-- Tabs Navigation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            
+            <Button
+                android:id="@+id/tab_aim"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/tab_aim"
+                android:textSize="12sp"
+                android:background="#1A00FFFF"
+                android:textColor="#FFFFFF" />
+            
+            <Button
+                android:id="@+id/tab_vfx"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/tab_vfx"
+                android:textSize="12sp"
+                android:background="#00000000"
+                android:textColor="#FFFFFF" />
+            
+            <Button
+                android:id="@+id/tab_bridge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/tab_bridge"
+                android:textSize="12sp"
+                android:background="#00000000"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Content Area -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="340dp">
+
+            <!-- SECTION: AIM -->
+            <ScrollView
+                android:id="@+id/section_aim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+                    <TextView android:id="@+id/tv_sec_trajectories" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/section_trajectories" android:gravity="center" android:textColor="#AAFFFFFF" android:textSize="10sp" android:layout_marginBottom="4dp"/>
+                    
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_trajectory"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_ai_prediction"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_pocket_focus"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_ghostball"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_snooker_solver"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_pocket_clearance"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_cue_landing"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_power_guide"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_dead_end"/>
+                    
+                    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#22FFFFFF" android:layout_marginVertical="8dp"/>
+                    
+                    <TextView android:id="@+id/tv_sec_radar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/section_radar" android:gravity="center" android:textColor="#AAFFFFFF" android:textSize="10sp" android:layout_marginBottom="4dp"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_break_predictor"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/sw_break_detector"/>
+                    
+                    <TextView
+                        android:id="@+id/tv_line_width_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/line_width_label"
+                        android:textColor="#AAFFFFFF"
+                        android:textSize="10sp"
+                        android:layout_marginTop="8dp"/>
+                    <SeekBar
+                        android:id="@+id/seek_line_width"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="25"/>
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- SECTION: VFX -->
+            <ScrollView
+                android:id="@+id/section_vfx"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+                    <include layout="@layout/item_menu_switch" android:id="@+id/sw_ghost_mode"/>
+                    
+                    <TextView
+                        android:id="@+id/tv_glow_intensity_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/glow_intensity_label"
+                        android:textColor="#AAFFFFFF"
+                        android:textSize="10sp"
+                        android:layout_marginTop="8dp"/>
+                    <SeekBar
+                        android:id="@+id/seek_opacity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:max="100"
+                        android:progress="50"/>
+
+                    <TextView
+                        android:id="@+id/tv_presets_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/presets_label"
+                        android:textColor="#AAFFFFFF"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_marginVertical="8dp"/>
+                    
+                    <Button android:id="@+id/btn_preset_ghost" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/preset_ghost_btn" android:background="#1affffff" android:textColor="#FFFFFF" android:layout_marginBottom="4dp"/>
+                    <Button android:id="@+id/btn_preset_dominator" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/preset_dominator_btn" android:background="#1affffff" android:textColor="#FFFFFF" android:layout_marginBottom="4dp"/>
+                    <Button android:id="@+id/btn_preset_stealth" android:layout_width="match_parent" android:layout_height="36dp" android:text="@string/preset_stealth_btn" android:background="#1affffff" android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- SECTION: PROTECTION / BRIDGE -->
+            <ScrollView
+                android:id="@+id/section_bridge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+                    <TextView android:id="@+id/tv_sec_protection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/section_protection" android:gravity="center" android:textColor="#AAFFFFFF" android:textSize="10sp" android:layout_marginBottom="4dp"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_antiban"/>
+                    <!-- item_stream_proof HURT the UI because the switch ID was removed from java but present in XML, breaking views below it -->
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_integrity_check"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_human_delay"/>
+                    <include layout="@layout/item_menu_switch" android:id="@+id/item_opponent_tracer"/>
+                    
+                    <TextView
+                        android:id="@+id/tv_bridge_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bridge_status_disconnected"
+                        android:gravity="center"
+                        android:textColor="#FFFF0000"
+                        android:textStyle="bold"
+                        android:padding="12dp"/>
+                    
+                    <Button
+                        android:id="@+id/btn_activate_bridge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btn_reconnect_bridge"
+                        android:background="#2200FF00"/>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+
+        <!-- Footer Stats & Controls -->
+        <View android:layout_width="match_parent" android:layout_height="2dp" android:background="#33FFFFFF" android:layout_marginVertical="12dp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView
+                android:id="@+id/tv_game_pid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/game_pid_label"
+                android:textColor="#88FFFFFF"
+                android:textSize="10sp"/>
+            
+            <TextView
+                android:id="@+id/tv_user_serial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/user_serial_label"
+                android:textColor="#88FFFFFF"
+                android:gravity="right"
+                android:textSize="10sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            
+            <TextView android:id="@+id/tv_menu_opacity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_opacity_label" android:textColor="#66FFFFFF" android:textSize="9sp"/>
+            <SeekBar android:id="@+id/seek_menu_opacity" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="85"/>
+            
+            <TextView android:id="@+id/tv_menu_scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_scale_label" android:textColor="#66FFFFFF" android:textSize="9sp"/>
+            <SeekBar android:id="@+id/seek_menu_scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="150" android:min="50" android:progress="100"/>
+
+            <TextView android:id="@+id/tv_time_scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_speed_label" android:textColor="#66FFFFFF" android:textSize="9sp"/>
+            <SeekBar android:id="@+id/seek_time_scale" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="200" android:progress="100"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_minimize"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:alpha="0.5"/>
+            
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
